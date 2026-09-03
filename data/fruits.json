@@ -1,0 +1,892 @@
+[
+  {
+    "id": "gomu-gomu",
+    "names": {
+      "de": "Gum-Gum-Frucht",
+      "en": "Gum-Gum Fruit",
+      "aliases": [
+        "Hito-Hito-Frucht Modell Nika",
+        "Human-Human Fruit Model Nika"
+      ]
+    },
+    "type": "mythical-zoan"
+  },
+  {
+    "id": "mera-mera",
+    "names": {
+      "de": "Feuer-Frucht",
+      "en": "Flame-Flame Fruit",
+      "aliases": [
+        "Mera Mera no Mi"
+      ]
+    },
+    "type": "logia"
+  },
+  {
+    "id": "yami-yami",
+    "names": {
+      "de": "Finster-Frucht",
+      "en": "Dark-Dark Fruit",
+      "aliases": [
+        "Yami Yami no Mi"
+      ]
+    },
+    "type": "logia"
+  },
+  {
+    "id": "gura-gura",
+    "names": {
+      "de": "Beben-Frucht",
+      "en": "Quake-Quake Fruit",
+      "aliases": [
+        "Gura Gura no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "ope-ope",
+    "names": {
+      "de": "Operations-Frucht",
+      "en": "Op-Op Fruit",
+      "aliases": [
+        "Ope Ope no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "hana-hana",
+    "names": {
+      "de": "Blüten-Frucht",
+      "en": "Flower-Flower Fruit",
+      "aliases": [
+        "Hana Hana no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "hito-hito",
+    "names": {
+      "de": "Menschen-Frucht",
+      "en": "Human-Human Fruit",
+      "aliases": [
+        "Hito Hito no Mi"
+      ]
+    },
+    "type": "zoan"
+  },
+  {
+    "id": "yomi-yomi",
+    "names": {
+      "de": "Totenreich-Frucht",
+      "en": "Revive-Revive Fruit",
+      "aliases": [
+        "Yomi Yomi no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "suna-suna",
+    "names": {
+      "de": "Sand-Frucht",
+      "en": "Sand-Sand Fruit",
+      "aliases": [
+        "Suna Suna no Mi"
+      ]
+    },
+    "type": "logia"
+  },
+  {
+    "id": "goro-goro",
+    "names": {
+      "de": "Blitz-Frucht",
+      "en": "Rumble-Rumble Fruit",
+      "aliases": [
+        "Goro Goro no Mi"
+      ]
+    },
+    "type": "logia"
+  },
+  {
+    "id": "bara-bara",
+    "names": {
+      "de": "Trenn-Trenn-Frucht",
+      "en": "Chop-Chop Fruit",
+      "aliases": [
+        "Bara Bara no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "moku-moku",
+    "names": {
+      "de": "Rauch-Frucht",
+      "en": "Smoke-Smoke Fruit",
+      "aliases": [
+        "Moku Moku no Mi"
+      ]
+    },
+    "type": "logia"
+  },
+  {
+    "id": "neko-neko-leopard",
+    "names": {
+      "de": "Katzen-Frucht Modell Leopard",
+      "en": "Cat-Cat Fruit Model Leopard",
+      "aliases": [
+        "Neko Neko no Mi"
+      ]
+    },
+    "type": "zoan"
+  },
+  {
+    "id": "uo-uo-seiryu",
+    "names": {
+      "de": "Fisch-Frucht Modell Seiryu",
+      "en": "Fish-Fish Fruit Model Azure Dragon",
+      "aliases": [
+        "Uo Uo no Mi"
+      ]
+    },
+    "type": "mythical-zoan"
+  },
+  {
+    "id": "soru-soru",
+    "names": {
+      "de": "Seelen-Frucht",
+      "en": "Soul-Soul Fruit",
+      "aliases": [
+        "Soru Soru no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "ito-ito",
+    "names": {
+      "de": "Faden-Frucht",
+      "en": "String-String Fruit",
+      "aliases": [
+        "Ito Ito no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "jiki-jiki",
+    "names": {
+      "de": "Magnet-Frucht",
+      "en": "Magnet-Magnet Fruit",
+      "aliases": [
+        "Jiki Jiki no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "mero-mero",
+    "names": {
+      "de": "Liebes-Frucht",
+      "en": "Love-Love Fruit",
+      "aliases": [
+        "Mero Mero no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "arrow-arrow",
+    "names": {
+      "de": "Pfeil-Pfeil-Frucht",
+      "en": "Arrow-Arrow Fruit",
+      "aliases": [
+        "Aro Aro no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "iba-iba",
+    "names": {
+      "de": "Dornen-Frucht",
+      "en": "Thorn-Thorn Fruit",
+      "aliases": [
+        "Iba Iba no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "ryu-kirin",
+    "names": {
+      "de": "Drachen-Frucht Modell Kirin",
+      "en": "Dragon-Dragon Fruit Model Kirin",
+      "aliases": [
+        "Ryu Ryu no Mi"
+      ]
+    },
+    "type": "mythical-zoan"
+  },
+  {
+    "id": "mochi-mochi",
+    "names": {
+      "de": "Mochi-Mochi-Frucht",
+      "en": "Mochi-Mochi Fruit",
+      "aliases": [
+        "Mochi Mochi no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "bari-bari",
+    "names": {
+      "de": "Barrieren-Frucht",
+      "en": "Barrier-Barrier Fruit",
+      "aliases": [
+        "Bari Bari no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "gasu-gasu",
+    "names": {
+      "de": "Gas-Frucht",
+      "en": "Gas-Gas Fruit",
+      "aliases": [
+        "Gasu Gasu no Mi"
+      ]
+    },
+    "type": "logia"
+  },
+  {
+    "id": "hobi-hobi",
+    "names": {
+      "de": "Spielzeug-Frucht",
+      "en": "Hobby-Hobby Fruit",
+      "aliases": [
+        "Hobi Hobi no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "pika-pika",
+    "names": {
+      "de": "Licht-Frucht",
+      "en": "Glint-Glint Fruit",
+      "aliases": [
+        "Pika Pika no Mi"
+      ]
+    },
+    "type": "logia"
+  },
+  {
+    "id": "hie-hie",
+    "names": {
+      "de": "Eis-Frucht",
+      "en": "Ice-Ice Fruit",
+      "aliases": [
+        "Hie Hie no Mi"
+      ]
+    },
+    "type": "logia"
+  },
+  {
+    "id": "magu-magu",
+    "names": {
+      "de": "Magma-Frucht",
+      "en": "Magma-Magma Fruit",
+      "aliases": [
+        "Magu Magu no Mi"
+      ]
+    },
+    "type": "logia"
+  },
+  {
+    "id": "tori-phoenix",
+    "names": {
+      "de": "Vogel-Frucht Modell Phönix",
+      "en": "Bird-Bird Fruit Model Phoenix",
+      "aliases": [
+        "Tori Tori no Mi"
+      ]
+    },
+    "type": "mythical-zoan"
+  },
+  {
+    "id": "zushi-zushi",
+    "names": {
+      "de": "Schwerkraft-Frucht",
+      "en": "Press-Press Fruit",
+      "aliases": [
+        "Zushi Zushi no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "horu-horu",
+    "names": {
+      "de": "Hormon-Frucht",
+      "en": "Horm-Horm Fruit",
+      "aliases": [
+        "Horu Horu no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "nikyu-nikyu",
+    "names": {
+      "de": "Tatzen-Frucht",
+      "en": "Paw-Paw Fruit",
+      "aliases": [
+        "Nikyu Nikyu no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "toshi-toshi",
+    "names": {
+      "de": "Alters-Frucht",
+      "en": "Age-Age Fruit",
+      "aliases": [
+        "Toshi Toshi no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "memo-memo",
+    "names": {
+      "de": "Erinnerungs-Frucht",
+      "en": "Memo-Memo Fruit",
+      "aliases": [
+        "Memo Memo no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "pero-pero",
+    "names": {
+      "de": "Bonbon-Frucht",
+      "en": "Lick-Lick Fruit",
+      "aliases": [
+        "Pero Pero no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "mane-mane",
+    "names": {
+      "de": "Imitations-Frucht",
+      "en": "Clone-Clone Fruit",
+      "aliases": [
+        "Mane Mane no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "tori-falcon",
+    "names": {
+      "de": "Vogel-Frucht Modell Falke",
+      "en": "Bird-Bird Fruit Model Falcon",
+      "aliases": [
+        "Tori Tori no Mi"
+      ]
+    },
+    "type": "zoan"
+  },
+  {
+    "id": "inu-jackal",
+    "names": {
+      "de": "Hunde-Frucht Modell Schakal",
+      "en": "Dog-Dog Fruit Model Jackal",
+      "aliases": [
+        "Inu Inu no Mi"
+      ]
+    },
+    "type": "zoan"
+  },
+  {
+    "id": "ushi-giraffe",
+    "names": {
+      "de": "Rinder-Frucht Modell Giraffe",
+      "en": "Ox-Ox Fruit Model Giraffe",
+      "aliases": [
+        "Ushi Ushi no Mi"
+      ]
+    },
+    "type": "zoan"
+  },
+  {
+    "id": "awa-awa",
+    "names": {
+      "de": "Seifen-Frucht",
+      "en": "Bubble-Bubble Fruit",
+      "aliases": [
+        "Awa Awa no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "oto-oto",
+    "names": {
+      "de": "Klang-Frucht",
+      "en": "Tone-Tone Fruit",
+      "aliases": [
+        "Oto Oto no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "wara-wara",
+    "names": {
+      "de": "Stroh-Frucht",
+      "en": "Straw-Straw Fruit",
+      "aliases": [
+        "Wara Wara no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "ryu-allosaurus",
+    "names": {
+      "de": "Drachen-Frucht Modell Allosaurus",
+      "en": "Dragon-Dragon Fruit Model Allosaurus",
+      "aliases": [
+        "Ryu Ryu no Mi"
+      ]
+    },
+    "type": "zoan"
+  },
+  {
+    "id": "ryu-pteranodon",
+    "names": {
+      "de": "Drachen-Frucht Modell Pteranodon",
+      "en": "Dragon-Dragon Fruit Model Pteranodon",
+      "aliases": [
+        "Ryu Ryu no Mi"
+      ]
+    },
+    "type": "zoan"
+  },
+  {
+    "id": "ryu-brachio",
+    "names": {
+      "de": "Drachen-Frucht Modell Brachiosaurus",
+      "en": "Dragon-Dragon Fruit Model Brachiosaurus",
+      "aliases": [
+        "Ryu Ryu no Mi"
+      ]
+    },
+    "type": "zoan"
+  },
+  {
+    "id": "zou-mammoth",
+    "names": {
+      "de": "Elefanten-Frucht Modell Mammut",
+      "en": "Elephant-Elephant Fruit Model Mammoth",
+      "aliases": [
+        "Zou Zou no Mi"
+      ]
+    },
+    "type": "zoan"
+  },
+  {
+    "id": "inu-okuchi",
+    "names": {
+      "de": "Hunde-Frucht Modell Okuchi",
+      "en": "Dog-Dog Fruit Model Okuchi",
+      "aliases": [
+        "Inu Inu no Mi"
+      ]
+    },
+    "type": "mythical-zoan"
+  },
+  {
+    "id": "artificial-uo",
+    "names": {
+      "de": "Künstliche Fisch-Frucht",
+      "en": "Artificial Fish-Fish Fruit",
+      "aliases": []
+    },
+    "type": "zoan"
+  },
+  {
+    "id": "fuku-fuku",
+    "names": {
+      "de": "Kleider-Frucht",
+      "en": "Garb-Garb Fruit",
+      "aliases": [
+        "Fuku Fuku no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "shiro-shiro",
+    "names": {
+      "de": "Festungs-Frucht",
+      "en": "Castle-Castle Fruit",
+      "aliases": [
+        "Shiro Shiro no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "hebi-yamata",
+    "names": {
+      "de": "Schlangen-Frucht Modell Yamata",
+      "en": "Snake-Snake Fruit Model Yamata",
+      "aliases": [
+        "Hebi Hebi no Mi"
+      ]
+    },
+    "type": "mythical-zoan"
+  },
+  {
+    "id": "suke-suke",
+    "names": {
+      "de": "Unsichtbarkeits-Frucht",
+      "en": "Clear-Clear Fruit",
+      "aliases": [
+        "Suke Suke no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "riki-riki",
+    "names": {
+      "de": "Kraft-Frucht",
+      "en": "Strong-Strong Fruit",
+      "aliases": [
+        "Riki Riki no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "wapu-wapu",
+    "names": {
+      "de": "Teleport-Frucht",
+      "en": "Warp-Warp Fruit",
+      "aliases": [
+        "Wapu Wapu no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "kira-kira",
+    "names": {
+      "de": "Diamant-Frucht",
+      "en": "Twinkle-Twinkle Fruit",
+      "aliases": [
+        "Kira Kira no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "hito-daibutsu",
+    "names": {
+      "de": "Menschen-Frucht Modell Daibutsu",
+      "en": "Human-Human Fruit Model Daibutsu",
+      "aliases": [
+        "Hito Hito no Mi"
+      ]
+    },
+    "type": "mythical-zoan"
+  },
+  {
+    "id": "tori-albatross",
+    "names": {
+      "de": "Vogel-Frucht Modell Albatros",
+      "en": "Bird-Bird Fruit Model Albatross",
+      "aliases": [
+        "Tori Tori no Mi"
+      ]
+    },
+    "type": "zoan"
+  },
+  {
+    "id": "doru-doru",
+    "names": {
+      "de": "Wachs-Frucht",
+      "en": "Wax-Wax Fruit",
+      "aliases": [
+        "Doru Doru no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "mira-mira",
+    "names": {
+      "de": "Spiegel-Frucht",
+      "en": "Mirror-Mirror Fruit",
+      "aliases": [
+        "Mira Mira no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "buku-buku",
+    "names": {
+      "de": "Buch-Frucht",
+      "en": "Book-Book Fruit",
+      "aliases": [
+        "Buku Buku no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "ishi-ishi",
+    "names": {
+      "de": "Stein-Frucht",
+      "en": "Stone-Stone Fruit",
+      "aliases": [
+        "Ishi Ishi no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "kame-kame",
+    "names": {
+      "de": "Schildkröten-Frucht",
+      "en": "Turtle-Turtle Fruit",
+      "aliases": [
+        "Kame Kame no Mi"
+      ]
+    },
+    "type": "zoan"
+  },
+  {
+    "id": "maki-maki",
+    "names": {
+      "de": "Schriftrollen-Frucht",
+      "en": "Scroll-Scroll Fruit",
+      "aliases": [
+        "Maki Maki no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "fude-fude",
+    "names": {
+      "de": "Pinsel-Frucht",
+      "en": "Brush-Brush Fruit",
+      "aliases": [
+        "Fude Fude no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "doa-doa",
+    "names": {
+      "de": "Tür-Frucht",
+      "en": "Door-Door Fruit",
+      "aliases": [
+        "Doa Doa no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "inu-wolf",
+    "names": {
+      "de": "Hunde-Frucht Modell Wolf",
+      "en": "Dog-Dog Fruit Model Wolf",
+      "aliases": [
+        "Inu Inu no Mi"
+      ]
+    },
+    "type": "zoan"
+  },
+  {
+    "id": "horo-horo",
+    "names": {
+      "de": "Hollow-Frucht",
+      "en": "Hollow-Hollow Fruit",
+      "aliases": [
+        "Horo Horo no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "yuki-yuki",
+    "names": {
+      "de": "Schnee-Frucht",
+      "en": "Snow-Snow Fruit",
+      "aliases": [
+        "Yuki Yuki no Mi"
+      ]
+    },
+    "type": "logia"
+  },
+  {
+    "id": "nagi-nagi",
+    "names": {
+      "de": "Stille-Frucht",
+      "en": "Calm-Calm Fruit",
+      "aliases": [
+        "Nagi Nagi no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "giro-giro",
+    "names": {
+      "de": "Guckloch-Frucht",
+      "en": "Glare-Glare Fruit",
+      "aliases": [
+        "Giro Giro no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "bane-bane",
+    "names": {
+      "de": "Feder-Frucht",
+      "en": "Spring-Spring Fruit",
+      "aliases": [
+        "Bane Bane no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "numa-numa",
+    "names": {
+      "de": "Sumpf-Frucht",
+      "en": "Swamp-Swamp Fruit",
+      "aliases": [
+        "Numa Numa no Mi"
+      ]
+    },
+    "type": "logia"
+  },
+  {
+    "id": "hira-hira",
+    "names": {
+      "de": "Flaggen-Frucht",
+      "en": "Flutter-Flutter Fruit",
+      "aliases": [
+        "Hira Hira no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "noro-noro",
+    "names": {
+      "de": "Slow-Frucht",
+      "en": "Slow-Slow Fruit",
+      "aliases": [
+        "Noro Noro no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "supa-supa",
+    "names": {
+      "de": "Klingen-Frucht",
+      "en": "Dice-Dice Fruit",
+      "aliases": [
+        "Supa Supa no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "sui-sui",
+    "names": {
+      "de": "Schwimm-Frucht",
+      "en": "Swim-Swim Fruit",
+      "aliases": [
+        "Sui Sui no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "kage-kage",
+    "names": {
+      "de": "Schatten-Frucht",
+      "en": "Shadow-Shadow Fruit",
+      "aliases": [
+        "Kage Kage no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "mori-mori",
+    "names": {
+      "de": "Wald-Frucht",
+      "en": "Forest-Forest Fruit",
+      "aliases": [
+        "Mori Mori no Mi"
+      ]
+    },
+    "type": "logia"
+  },
+  {
+    "id": "susu-susu",
+    "names": {
+      "de": "Ruß-Frucht",
+      "en": "Soot-Soot Fruit",
+      "aliases": [
+        "Susu Susu no Mi"
+      ]
+    },
+    "type": "logia"
+  },
+  {
+    "id": "oshi-oshi",
+    "names": {
+      "de": "Schiebe-Frucht",
+      "en": "Push-Push Fruit",
+      "aliases": [
+        "Oshi Oshi no Mi"
+      ]
+    },
+    "type": "paramecia"
+  },
+  {
+    "id": "doku-doku",
+    "names": {
+      "de": "Gift-Frucht",
+      "en": "Venom-Venom Fruit",
+      "aliases": [
+        "Doku Doku no Mi"
+      ]
+    },
+    "type": "paramecia"
+  }
+]

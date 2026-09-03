@@ -1,0 +1,4156 @@
+[
+  {
+    "id": "monkey-d-luffy",
+    "names": {
+      "de": "Monkey D. Ruffy",
+      "en": "Monkey D. Luffy",
+      "aliases": [
+        "Strohhut",
+        "Straw Hat",
+        "Joyboy",
+        "Joy Boy"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Straw Hat Pirates"
+    ],
+    "origin": {
+      "sea": "East Blue",
+      "place": "Windmill Village"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": "gomu-gomu",
+    "bounty": 3000000000,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Romance Dawn"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "roronoa-zoro",
+    "names": {
+      "de": "Lorenor Zorro",
+      "en": "Roronoa Zoro",
+      "aliases": [
+        "Zorro",
+        "Pirate Hunter"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Straw Hat Pirates"
+    ],
+    "origin": {
+      "sea": "East Blue",
+      "place": "Shimotsuki Village"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": null,
+    "bounty": 1111000000,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Romance Dawn"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "nami",
+    "names": {
+      "de": "Nami",
+      "en": "Nami",
+      "aliases": [
+        "Cat Burglar",
+        "Katzen-Diebin"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Straw Hat Pirates"
+    ],
+    "origin": {
+      "sea": "East Blue",
+      "place": "Cocoyasi Village"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": 366000000,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Orange Town"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "usopp",
+    "names": {
+      "de": "Lysop",
+      "en": "Usopp",
+      "aliases": [
+        "Sogeking",
+        "Sniper King",
+        "Gott Lysop",
+        "God Usopp"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Straw Hat Pirates"
+    ],
+    "origin": {
+      "sea": "East Blue",
+      "place": "Syrup Village"
+    },
+    "haki": [
+      "observation"
+    ],
+    "fruitId": null,
+    "bounty": 500000000,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Syrup Village"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "sanji",
+    "names": {
+      "de": "Sanji",
+      "en": "Sanji",
+      "aliases": [
+        "Black Leg",
+        "Schwarzfuß",
+        "Vinsmoke Sanji"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Straw Hat Pirates"
+    ],
+    "origin": {
+      "sea": "North Blue",
+      "place": "Germa Kingdom"
+    },
+    "haki": [
+      "armament",
+      "observation"
+    ],
+    "fruitId": null,
+    "bounty": 1032000000,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Baratie"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "tony-tony-chopper",
+    "names": {
+      "de": "Tony Tony Chopper",
+      "en": "Tony Tony Chopper",
+      "aliases": [
+        "Chopper",
+        "Cotton Candy Lover"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Straw Hat Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Drum Island"
+    },
+    "haki": [],
+    "fruitId": "hito-hito",
+    "bounty": 1000,
+    "debut": {
+      "saga": "Alabasta",
+      "arc": "Drum Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "nico-robin",
+    "names": {
+      "de": "Nico Robin",
+      "en": "Nico Robin",
+      "aliases": [
+        "Robin",
+        "Devil Child",
+        "Teufelskind"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Straw Hat Pirates"
+    ],
+    "origin": {
+      "sea": "West Blue",
+      "place": "Ohara"
+    },
+    "haki": [],
+    "fruitId": "hana-hana",
+    "bounty": 930000000,
+    "debut": {
+      "saga": "Alabasta",
+      "arc": "Whisky Peak"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "franky",
+    "names": {
+      "de": "Franky",
+      "en": "Franky",
+      "aliases": [
+        "Cutty Flam",
+        "Cyborg"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Straw Hat Pirates"
+    ],
+    "origin": {
+      "sea": "South Blue",
+      "place": "Water 7"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": 394000000,
+    "debut": {
+      "saga": "Water 7",
+      "arc": "Water 7"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "brook",
+    "names": {
+      "de": "Brook",
+      "en": "Brook",
+      "aliases": [
+        "Soul King",
+        "Soul-König",
+        "Humming Brook"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Straw Hat Pirates"
+    ],
+    "origin": {
+      "sea": "West Blue"
+    },
+    "haki": [],
+    "fruitId": "yomi-yomi",
+    "bounty": 383000000,
+    "debut": {
+      "saga": "Thriller Bark",
+      "arc": "Thriller Bark"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "jinbe",
+    "names": {
+      "de": "Jimbei",
+      "en": "Jinbe",
+      "aliases": [
+        "Jinbei",
+        "Knight of the Sea",
+        "Ritter der Meere"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Straw Hat Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Fish-Man Island"
+    },
+    "haki": [
+      "armament",
+      "observation"
+    ],
+    "fruitId": null,
+    "bounty": 1100000000,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Impel Down"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "shanks",
+    "names": {
+      "de": "Shanks",
+      "en": "Shanks",
+      "aliases": [
+        "Red-Haired Shanks",
+        "Rothaar",
+        "Akagami"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Red Hair Pirates"
+    ],
+    "origin": {
+      "sea": "West Blue"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": null,
+    "bounty": 4048900000,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Romance Dawn"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "buggy",
+    "names": {
+      "de": "Buggy",
+      "en": "Buggy",
+      "aliases": [
+        "Buggy the Clown",
+        "Clown",
+        "Genius Jester"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Cross Guild"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "bara-bara",
+    "bounty": 3189000000,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Orange Town"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "dracule-mihawk",
+    "names": {
+      "de": "Mihawk Dulacre",
+      "en": "Dracule Mihawk",
+      "aliases": [
+        "Mihawk",
+        "Hawk Eyes",
+        "Falkenauge"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Cross Guild"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Kuraigana Island"
+    },
+    "haki": [
+      "armament",
+      "observation"
+    ],
+    "fruitId": null,
+    "bounty": 3590000000,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Baratie"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "crocodile",
+    "names": {
+      "de": "Sir Crocodile",
+      "en": "Sir Crocodile",
+      "aliases": [
+        "Crocodile",
+        "Mr. 0",
+        "Desert King"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Cross Guild"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "suna-suna",
+    "bounty": 1965000000,
+    "debut": {
+      "saga": "Alabasta",
+      "arc": "Alabasta"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "enel",
+    "names": {
+      "de": "Enel",
+      "en": "Enel",
+      "aliases": [
+        "Eneru",
+        "God Enel",
+        "Gott Enel"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Skypiea"
+    ],
+    "origin": {
+      "sea": "Sky Islands",
+      "place": "Birka"
+    },
+    "haki": [
+      "observation"
+    ],
+    "fruitId": "goro-goro",
+    "bounty": null,
+    "debut": {
+      "saga": "Skypiea",
+      "arc": "Skypiea"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "rob-lucci",
+    "names": {
+      "de": "Rob Lucci",
+      "en": "Rob Lucci",
+      "aliases": [
+        "Lucci",
+        "Pigeon Guy"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Cipher Pol"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [
+      "armament",
+      "observation"
+    ],
+    "fruitId": "neko-neko-leopard",
+    "bounty": null,
+    "debut": {
+      "saga": "Water 7",
+      "arc": "Water 7"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "trafalgar-law",
+    "names": {
+      "de": "Trafalgar Law",
+      "en": "Trafalgar Law",
+      "aliases": [
+        "Law",
+        "Surgeon of Death"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Heart Pirates"
+    ],
+    "origin": {
+      "sea": "North Blue",
+      "place": "Flevance"
+    },
+    "haki": [
+      "armament",
+      "observation"
+    ],
+    "fruitId": "ope-ope",
+    "bounty": 3000000000,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "eustass-kid",
+    "names": {
+      "de": "Eustass Kid",
+      "en": "Eustass Kid",
+      "aliases": [
+        "Kid",
+        "Kidd",
+        "Captain"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Kid Pirates"
+    ],
+    "origin": {
+      "sea": "South Blue"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": "jiki-jiki",
+    "bounty": 3000000000,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "portgas-d-ace",
+    "names": {
+      "de": "Portgas D. Ace",
+      "en": "Portgas D. Ace",
+      "aliases": [
+        "Ace",
+        "Fire Fist",
+        "Feuerfaust"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Whitebeard Pirates"
+    ],
+    "origin": {
+      "sea": "South Blue",
+      "place": "Baterilla"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": "mera-mera",
+    "bounty": 550000000,
+    "debut": {
+      "saga": "Alabasta",
+      "arc": "Drum Island"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "sabo",
+    "names": {
+      "de": "Sabo",
+      "en": "Sabo",
+      "aliases": [
+        "Sabo",
+        "Flame Emperor"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Revolutionary Army"
+    ],
+    "origin": {
+      "sea": "East Blue",
+      "place": "Goa Kingdom"
+    },
+    "haki": [
+      "armament",
+      "observation"
+    ],
+    "fruitId": "mera-mera",
+    "bounty": 602000000,
+    "debut": {
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "edward-newgate",
+    "names": {
+      "de": "Edward Newgate",
+      "en": "Edward Newgate",
+      "aliases": [
+        "Whitebeard",
+        "Weißbart",
+        "Shirohige"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Whitebeard Pirates"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Sphinx Island"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": "gura-gura",
+    "bounty": 5046000000,
+    "debut": {
+      "saga": "Skypiea",
+      "arc": "Jaya"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "kaido",
+    "names": {
+      "de": "Kaido",
+      "en": "Kaido",
+      "aliases": [
+        "Kaido of the Beasts",
+        "Strongest Creature",
+        "Stärkste Kreatur"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Beasts Pirates"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Vodka Kingdom"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": "uo-uo-seiryu",
+    "bounty": 4611100000,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Marineford"
+    },
+    "status": "unknown"
+  },
+  {
+    "id": "charlotte-linlin",
+    "names": {
+      "de": "Charlotte Linlin",
+      "en": "Charlotte Linlin",
+      "aliases": [
+        "Big Mom",
+        "Big Mum"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Big Mom Pirates"
+    ],
+    "origin": {
+      "sea": "New World"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": "soru-soru",
+    "bounty": 4388000000,
+    "debut": {
+      "saga": "Fish-Man Island",
+      "arc": "Fish-Man Island"
+    },
+    "status": "unknown"
+  },
+  {
+    "id": "marshall-d-teach",
+    "names": {
+      "de": "Marshall D. Teach",
+      "en": "Marshall D. Teach",
+      "aliases": [
+        "Blackbeard",
+        "Blackbeard"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Blackbeard Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "yami-yami",
+    "bounty": 3996000000,
+    "debut": {
+      "saga": "Skypiea",
+      "arc": "Jaya"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "monkey-d-garp",
+    "names": {
+      "de": "Monkey D. Garp",
+      "en": "Monkey D. Garp",
+      "aliases": [
+        "Garp",
+        "Hero of the Marines",
+        "Held der Marine"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Marines"
+    ],
+    "origin": {
+      "sea": "East Blue",
+      "place": "Goa Kingdom"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Water 7",
+      "arc": "Water 7"
+    },
+    "status": "unknown"
+  },
+  {
+    "id": "smoker",
+    "names": {
+      "de": "Smoker",
+      "en": "Smoker",
+      "aliases": [
+        "Smoker the White Hunter",
+        "Weißer Jäger"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Marines"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Loguetown"
+    },
+    "haki": [
+      "armament",
+      "observation"
+    ],
+    "fruitId": "moku-moku",
+    "bounty": null,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Loguetown"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "nefertari-vivi",
+    "names": {
+      "de": "Nefertari Vivi",
+      "en": "Nefertari Vivi",
+      "aliases": [
+        "Vivi",
+        "Miss Wednesday"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Alabasta Kingdom"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Alabasta"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Alabasta",
+      "arc": "Reverse Mountain"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "boa-hancock",
+    "names": {
+      "de": "Boa Hancock",
+      "en": "Boa Hancock",
+      "aliases": [
+        "Hancock",
+        "Pirate Empress",
+        "Piratenkaiserin"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Kuja Pirates"
+    ],
+    "origin": {
+      "sea": "Calm Belt",
+      "place": "Amazon Lily"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": "mero-mero",
+    "bounty": 1659000000,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Amazon Lily"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "donquixote-doflamingo",
+    "names": {
+      "de": "Don Quichotte de Flamingo",
+      "en": "Donquixote Doflamingo",
+      "aliases": [
+        "Doflamingo",
+        "Doffy",
+        "Joker",
+        "Heavenly Demon"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Donquixote Pirates"
+    ],
+    "origin": {
+      "sea": "Red Line",
+      "place": "Mariejoa"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": "ito-ito",
+    "bounty": 340000000,
+    "debut": {
+      "saga": "Skypiea",
+      "arc": "Jaya"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "loki",
+    "names": {
+      "de": "Loki",
+      "en": "Loki",
+      "aliases": [
+        "Prinz Loki",
+        "Prince Loki",
+        "Verfluchter Prinz",
+        "Accursed Prince"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Elbaf"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Elbaf"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Final",
+      "arc": "Elbaf"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "shamrock-figarland",
+    "names": {
+      "de": "Shamrock Figarland",
+      "en": "Shamrock Figarland",
+      "aliases": [
+        "Shamrock",
+        "Saint Shamrock"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Holy Knights"
+    ],
+    "origin": {
+      "sea": "Red Line",
+      "place": "Mariejoa"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Final",
+      "arc": "Elbaf"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "gunko",
+    "animeSafe": false,
+    "names": {
+      "de": "Gunko",
+      "en": "Gunko",
+      "aliases": [
+        "Manmayer Gunko"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Holy Knights"
+    ],
+    "origin": {
+      "sea": "Red Line"
+    },
+    "haki": [],
+    "fruitId": "arrow-arrow",
+    "bounty": null,
+    "debut": {
+      "saga": "Final",
+      "arc": "Elbaf"
+    },
+    "status": "unknown"
+  },
+  {
+    "id": "shepherd-sommers",
+    "animeSafe": false,
+    "names": {
+      "de": "Shepherd Sommers",
+      "en": "Shepherd Sommers",
+      "aliases": [
+        "Sommers",
+        "Saint Sommers"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Holy Knights"
+    ],
+    "origin": {
+      "sea": "Red Line",
+      "place": "Mariejoa"
+    },
+    "haki": [],
+    "fruitId": "iba-iba",
+    "bounty": null,
+    "debut": {
+      "saga": "Final",
+      "arc": "Elbaf"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "rimoshifu-killingham",
+    "animeSafe": false,
+    "names": {
+      "de": "Rimoshifu Killingham",
+      "en": "Rimoshifu Killingham",
+      "aliases": [
+        "Killingham",
+        "Saint Killingham"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Holy Knights"
+    ],
+    "origin": {
+      "sea": "Red Line",
+      "place": "Mariejoa"
+    },
+    "haki": [],
+    "fruitId": "ryu-kirin",
+    "bounty": null,
+    "debut": {
+      "saga": "Final",
+      "arc": "Elbaf"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "harald",
+    "animeSafe": false,
+    "names": {
+      "de": "König Harald",
+      "en": "King Harald",
+      "aliases": [
+        "Harald"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Elbaf"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Elbaf"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Final",
+      "arc": "Elbaf"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "estrid",
+    "animeSafe": false,
+    "names": {
+      "de": "Königin Estrid",
+      "en": "Queen Estrid",
+      "aliases": [
+        "Estrid"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Elbaf"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Elbaf"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Final",
+      "arc": "Elbaf"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "hajrudin",
+    "names": {
+      "de": "Hajrudin",
+      "en": "Hajrudin",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Straw Hat Grand Fleet"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Elbaf"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "scopper-gaban",
+    "names": {
+      "de": "Scopper Gaban",
+      "en": "Scopper Gaban",
+      "aliases": [
+        "Gaban"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Roger Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [
+      "armament",
+      "observation"
+    ],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Final",
+      "arc": "Elbaf"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "vegapunk-stella",
+    "names": {
+      "de": "Dr. Vegapunk",
+      "en": "Dr. Vegapunk",
+      "aliases": [
+        "Vegapunk",
+        "Stella"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Vegapunk"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Karakuri Island"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Egghead",
+      "arc": "Egghead"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "york",
+    "names": {
+      "de": "York",
+      "en": "York",
+      "aliases": [
+        "Vegapunk York"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Vegapunk"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Egghead",
+      "arc": "Egghead"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "lilith",
+    "names": {
+      "de": "Lilith",
+      "en": "Lilith",
+      "aliases": [
+        "Vegapunk Lilith"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Vegapunk"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Egghead",
+      "arc": "Egghead"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "jaygarcia-saturn",
+    "names": {
+      "de": "Jaygarcia Saturn",
+      "en": "Jaygarcia Saturn",
+      "aliases": [
+        "Saturn",
+        "Saint Saturn"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "World Government"
+    ],
+    "origin": {
+      "sea": "Red Line",
+      "place": "Mariejoa"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Reverie"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "borsalino",
+    "names": {
+      "de": "Borsalino",
+      "en": "Borsalino",
+      "aliases": [
+        "Kizaru",
+        "Gelber Affe",
+        "Yellow Monkey"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Marines"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [
+      "armament",
+      "observation"
+    ],
+    "fruitId": "pika-pika",
+    "bounty": null,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "sentomaru",
+    "names": {
+      "de": "Sentomaru",
+      "en": "Sentomaru",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Marines"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "stussy",
+    "names": {
+      "de": "Stussy",
+      "en": "Stussy",
+      "aliases": []
+    },
+    "gender": "female",
+    "affiliation": [
+      "Cipher Pol"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Whole Cake Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "jewelry-bonney",
+    "names": {
+      "de": "Jewelry Bonney",
+      "en": "Jewelry Bonney",
+      "aliases": [
+        "Bonney"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Bonney Pirates"
+    ],
+    "origin": {
+      "sea": "South Blue",
+      "place": "Sorbet Kingdom"
+    },
+    "haki": [],
+    "fruitId": "toshi-toshi",
+    "bounty": 320000000,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "bartholomew-kuma",
+    "names": {
+      "de": "Bartholomäus Kuma",
+      "en": "Bartholomew Kuma",
+      "aliases": [
+        "Kuma",
+        "Tyrann",
+        "Tyrant"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Revolutionary Army"
+    ],
+    "origin": {
+      "sea": "South Blue",
+      "place": "Sorbet Kingdom"
+    },
+    "haki": [],
+    "fruitId": "nikyu-nikyu",
+    "bounty": 296000000,
+    "debut": {
+      "saga": "Thriller Bark",
+      "arc": "Thriller Bark"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "yamato",
+    "names": {
+      "de": "Yamato",
+      "en": "Yamato",
+      "aliases": [
+        "Oden"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Beasts Pirates"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Wano"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": "inu-okuchi",
+    "bounty": null,
+    "debut": {
+      "saga": "Wano",
+      "arc": "Wano"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "kozuki-oden",
+    "names": {
+      "de": "Kozuki Oden",
+      "en": "Kozuki Oden",
+      "aliases": [
+        "Oden"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Roger Pirates"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Wano"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Wano",
+      "arc": "Wano"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "kinemon",
+    "names": {
+      "de": "Kin'emon",
+      "en": "Kin'emon",
+      "aliases": [
+        "Kinemon",
+        "Fuchsfeuer",
+        "Foxfire"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Kozuki Family"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Wano"
+    },
+    "haki": [],
+    "fruitId": "fuku-fuku",
+    "bounty": null,
+    "debut": {
+      "saga": "Punk Hazard",
+      "arc": "Punk Hazard"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "kozuki-momonosuke",
+    "names": {
+      "de": "Momonosuke",
+      "en": "Kozuki Momonosuke",
+      "aliases": [
+        "Momo"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Kozuki Family"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Wano"
+    },
+    "haki": [],
+    "fruitId": "artificial-uo",
+    "bounty": null,
+    "debut": {
+      "saga": "Punk Hazard",
+      "arc": "Punk Hazard"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "king",
+    "names": {
+      "de": "King",
+      "en": "King",
+      "aliases": [
+        "Alber"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Beasts Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [
+      "armament",
+      "observation"
+    ],
+    "fruitId": "ryu-pteranodon",
+    "bounty": 1390000000,
+    "debut": {
+      "saga": "Wano",
+      "arc": "Wano"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "queen",
+    "names": {
+      "de": "Queen",
+      "en": "Queen",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Beasts Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "ryu-brachio",
+    "bounty": 1320000000,
+    "debut": {
+      "saga": "Wano",
+      "arc": "Wano"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "jack",
+    "names": {
+      "de": "Jack",
+      "en": "Jack",
+      "aliases": [
+        "Dürre",
+        "The Drought"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Beasts Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "zou-mammoth",
+    "bounty": 1000000000,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Zou"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "kurozumi-orochi",
+    "names": {
+      "de": "Orochi",
+      "en": "Kurozumi Orochi",
+      "aliases": [
+        "Shogun Orochi"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Beasts Pirates"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Wano"
+    },
+    "haki": [],
+    "fruitId": "hebi-yamata",
+    "bounty": null,
+    "debut": {
+      "saga": "Wano",
+      "arc": "Wano"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "charlotte-katakuri",
+    "names": {
+      "de": "Katakuri",
+      "en": "Charlotte Katakuri",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Big Mom Pirates"
+    ],
+    "origin": {
+      "sea": "New World"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": "mochi-mochi",
+    "bounty": 1057000000,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Whole Cake Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "charlotte-perospero",
+    "names": {
+      "de": "Perospero",
+      "en": "Charlotte Perospero",
+      "aliases": [
+        "Pero"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Big Mom Pirates"
+    ],
+    "origin": {
+      "sea": "New World"
+    },
+    "haki": [],
+    "fruitId": "pero-pero",
+    "bounty": 700000000,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Whole Cake Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "charlotte-pudding",
+    "names": {
+      "de": "Pudding",
+      "en": "Charlotte Pudding",
+      "aliases": []
+    },
+    "gender": "female",
+    "affiliation": [
+      "Big Mom Pirates"
+    ],
+    "origin": {
+      "sea": "New World"
+    },
+    "haki": [],
+    "fruitId": "memo-memo",
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Whole Cake Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "nekomamushi",
+    "names": {
+      "de": "Nekomamushi",
+      "en": "Nekomamushi",
+      "aliases": [
+        "Neko",
+        "Katzenviper",
+        "Cat Viper"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Mokomo Dukedom"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Zou"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Zou"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "inuarashi",
+    "names": {
+      "de": "Inuarashi",
+      "en": "Inuarashi",
+      "aliases": [
+        "Inu",
+        "Hundesturm",
+        "Dogstorm"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Mokomo Dukedom"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Zou"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Zou"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "carrot",
+    "names": {
+      "de": "Carrot",
+      "en": "Carrot",
+      "aliases": [
+        "Karotte"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Mokomo Dukedom"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Zou"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Zou"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "issho",
+    "names": {
+      "de": "Fujitora",
+      "en": "Issho",
+      "aliases": [
+        "Fujitora",
+        "Tigerlila",
+        "Purple Tiger"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Marines"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [
+      "armament",
+      "observation"
+    ],
+    "fruitId": "zushi-zushi",
+    "bounty": null,
+    "debut": {
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "bartolomeo",
+    "names": {
+      "de": "Bartolomeo",
+      "en": "Bartolomeo",
+      "aliases": [
+        "Barto",
+        "Menschenfresser",
+        "Cannibal"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Straw Hat Grand Fleet"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "bari-bari",
+    "bounty": 200000000,
+    "debut": {
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "cavendish",
+    "names": {
+      "de": "Cavendish",
+      "en": "Cavendish",
+      "aliases": [
+        "Cabbage",
+        "Weißes Pferd",
+        "White Horse"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Straw Hat Grand Fleet"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Bourgeois Kingdom"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": 330000000,
+    "debut": {
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "rebecca",
+    "names": {
+      "de": "Rebecca",
+      "en": "Rebecca",
+      "aliases": []
+    },
+    "gender": "female",
+    "affiliation": [
+      "Dressrosa"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Dressrosa"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "sugar",
+    "names": {
+      "de": "Sugar",
+      "en": "Sugar",
+      "aliases": []
+    },
+    "gender": "female",
+    "affiliation": [
+      "Donquixote Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "hobi-hobi",
+    "bounty": null,
+    "debut": {
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "caesar-clown",
+    "names": {
+      "de": "Caesar Clown",
+      "en": "Caesar Clown",
+      "aliases": [
+        "Caesar",
+        "Master"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Beasts Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "gasu-gasu",
+    "bounty": 300000000,
+    "debut": {
+      "saga": "Punk Hazard",
+      "arc": "Punk Hazard"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "shirahoshi",
+    "names": {
+      "de": "Shirahoshi",
+      "en": "Shirahoshi",
+      "aliases": [
+        "Meerjungfrauen-Prinzessin",
+        "Mermaid Princess",
+        "Poseidon"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Ryugu Kingdom"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Fish-Man Island"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Fish-Man Island",
+      "arc": "Fish-Man Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "hody-jones",
+    "names": {
+      "de": "Hody Jones",
+      "en": "Hody Jones",
+      "aliases": [
+        "Hody"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "New Fish-Man Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Fish-Man Island"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Fish-Man Island",
+      "arc": "Fish-Man Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "silvers-rayleigh",
+    "names": {
+      "de": "Rayleigh",
+      "en": "Silvers Rayleigh",
+      "aliases": [
+        "Silvers",
+        "Dunkler König",
+        "Dark King"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Roger Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "marco",
+    "names": {
+      "de": "Marco",
+      "en": "Marco",
+      "aliases": [
+        "Marco der Phönix",
+        "Marco the Phoenix"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Whitebeard Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [
+      "armament",
+      "observation"
+    ],
+    "fruitId": "tori-phoenix",
+    "bounty": 1374000000,
+    "debut": {
+      "saga": "Skypiea",
+      "arc": "Jaya"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "jozu",
+    "names": {
+      "de": "Jozu",
+      "en": "Jozu",
+      "aliases": [
+        "Diamant Jozu",
+        "Diamond Jozu"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Whitebeard Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "kira-kira",
+    "bounty": null,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Marineford"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "sengoku",
+    "names": {
+      "de": "Sengoku",
+      "en": "Sengoku",
+      "aliases": [
+        "Sengoku der Buddha",
+        "Sengoku the Buddha"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Marines"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": "hito-daibutsu",
+    "bounty": null,
+    "debut": {
+      "saga": "Skypiea",
+      "arc": "Jaya"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "sakazuki",
+    "names": {
+      "de": "Akainu",
+      "en": "Sakazuki",
+      "aliases": [
+        "Akainu",
+        "Roter Hund",
+        "Red Dog"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Marines"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [
+      "armament",
+      "observation"
+    ],
+    "fruitId": "magu-magu",
+    "bounty": null,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Marineford"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "kuzan",
+    "names": {
+      "de": "Kuzan",
+      "en": "Kuzan",
+      "aliases": [
+        "Aokiji",
+        "Blauer Fasan",
+        "Blue Pheasant"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Blackbeard Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [
+      "armament",
+      "observation"
+    ],
+    "fruitId": "hie-hie",
+    "bounty": null,
+    "debut": {
+      "saga": "Water 7",
+      "arc": "Long Ring Long Land"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "emporio-ivankov",
+    "names": {
+      "de": "Ivankov",
+      "en": "Emporio Ivankov",
+      "aliases": [
+        "Iva",
+        "Queen of Kamabakka"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Revolutionary Army"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "horu-horu",
+    "bounty": null,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Impel Down"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "monkey-d-dragon",
+    "names": {
+      "de": "Monkey D. Dragon",
+      "en": "Monkey D. Dragon",
+      "aliases": [
+        "Dragon",
+        "Revolutionär",
+        "Revolutionary"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Revolutionary Army"
+    ],
+    "origin": {
+      "sea": "East Blue",
+      "place": "Goa Kingdom"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Loguetown"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "koala",
+    "names": {
+      "de": "Koala",
+      "en": "Koala",
+      "aliases": []
+    },
+    "gender": "female",
+    "affiliation": [
+      "Revolutionary Army"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Fish-Man Island",
+      "arc": "Fish-Man Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "pell",
+    "names": {
+      "de": "Pell",
+      "en": "Pell",
+      "aliases": [
+        "Falke",
+        "The Falcon"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Alabasta Kingdom"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Alabasta"
+    },
+    "haki": [],
+    "fruitId": "tori-falcon",
+    "bounty": null,
+    "debut": {
+      "saga": "Alabasta",
+      "arc": "Alabasta"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "chaka",
+    "names": {
+      "de": "Chaka",
+      "en": "Chaka",
+      "aliases": [
+        "Schakal",
+        "The Jackal"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Alabasta Kingdom"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Alabasta"
+    },
+    "haki": [],
+    "fruitId": "inu-jackal",
+    "bounty": null,
+    "debut": {
+      "saga": "Alabasta",
+      "arc": "Alabasta"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "bon-clay",
+    "names": {
+      "de": "Bon Clay",
+      "en": "Bon Clay",
+      "aliases": [
+        "Mr. 2",
+        "Bon-chan",
+        "Bentham"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Baroque Works"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "mane-mane",
+    "bounty": 32000000,
+    "debut": {
+      "saga": "Alabasta",
+      "arc": "Alabasta"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "arlong",
+    "names": {
+      "de": "Arlong",
+      "en": "Arlong",
+      "aliases": [
+        "Sägehai",
+        "Saw-Tooth"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Arlong Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Fish-Man Island"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": 20000000,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Arlong Park"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "tashigi",
+    "names": {
+      "de": "Tashigi",
+      "en": "Tashigi",
+      "aliases": []
+    },
+    "gender": "female",
+    "affiliation": [
+      "Marines"
+    ],
+    "origin": {
+      "sea": "East Blue"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Loguetown"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "coby",
+    "names": {
+      "de": "Coby",
+      "en": "Coby",
+      "aliases": [
+        "Corby"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Marines"
+    ],
+    "origin": {
+      "sea": "East Blue"
+    },
+    "haki": [
+      "observation"
+    ],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Romance Dawn"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "iceburg",
+    "names": {
+      "de": "Iceburg",
+      "en": "Iceburg",
+      "aliases": [
+        "Eisberg"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Galley-La"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Water 7"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Water 7",
+      "arc": "Water 7"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "kaku",
+    "names": {
+      "de": "Kaku",
+      "en": "Kaku",
+      "aliases": [
+        "Giraffe"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Cipher Pol"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "ushi-giraffe",
+    "bounty": null,
+    "debut": {
+      "saga": "Water 7",
+      "arc": "Water 7"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "kalifa",
+    "names": {
+      "de": "Kalifa",
+      "en": "Kalifa",
+      "aliases": []
+    },
+    "gender": "female",
+    "affiliation": [
+      "Cipher Pol"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "awa-awa",
+    "bounty": null,
+    "debut": {
+      "saga": "Water 7",
+      "arc": "Water 7"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "wyper",
+    "names": {
+      "de": "Viper",
+      "en": "Wyper",
+      "aliases": [
+        "Wyper",
+        "Krieger",
+        "Warrior"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Shandia"
+    ],
+    "origin": {
+      "sea": "Sky Islands"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Skypiea",
+      "arc": "Skypiea"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "capone-bege",
+    "names": {
+      "de": "Capone Bege",
+      "en": "Capone Bege",
+      "aliases": [
+        "Bege",
+        "Gangster"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Fire Tank Pirates"
+    ],
+    "origin": {
+      "sea": "West Blue"
+    },
+    "haki": [],
+    "fruitId": "shiro-shiro",
+    "bounty": 350000000,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "killer",
+    "names": {
+      "de": "Killer",
+      "en": "Killer",
+      "aliases": [
+        "Kamazo"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Kid Pirates"
+    ],
+    "origin": {
+      "sea": "South Blue"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": 200000000,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "scratchmen-apoo",
+    "names": {
+      "de": "Scratchmen Apoo",
+      "en": "Scratchmen Apoo",
+      "aliases": [
+        "Apoo"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Beasts Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "oto-oto",
+    "bounty": 350000000,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "basil-hawkins",
+    "names": {
+      "de": "Basil Hawkins",
+      "en": "Basil Hawkins",
+      "aliases": [
+        "Hawkins",
+        "Magier",
+        "Magician"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Beasts Pirates"
+    ],
+    "origin": {
+      "sea": "North Blue"
+    },
+    "haki": [],
+    "fruitId": "wara-wara",
+    "bounty": 320000000,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "x-drake",
+    "names": {
+      "de": "X Drake",
+      "en": "X Drake",
+      "aliases": [
+        "Drake",
+        "Die Flagge",
+        "Fallen Flag"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Marines"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "ryu-allosaurus",
+    "bounty": 222000000,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "unknown"
+  },
+  {
+    "id": "shiryu",
+    "names": {
+      "de": "Shiryu",
+      "en": "Shiryu",
+      "aliases": [
+        "Shiryu des Regens",
+        "Shiryu of the Rain"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Blackbeard Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "suke-suke",
+    "bounty": null,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Impel Down"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "jesus-burgess",
+    "names": {
+      "de": "Jesus Burgess",
+      "en": "Jesus Burgess",
+      "aliases": [
+        "Burgess",
+        "Meister",
+        "Champion"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Blackbeard Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "riki-riki",
+    "bounty": null,
+    "debut": {
+      "saga": "Skypiea",
+      "arc": "Jaya"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "van-augur",
+    "names": {
+      "de": "Van Augur",
+      "en": "Van Augur",
+      "aliases": [
+        "Augur",
+        "Übermensch",
+        "Supersonic"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Blackbeard Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "wapu-wapu",
+    "bounty": null,
+    "debut": {
+      "saga": "Skypiea",
+      "arc": "Jaya"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "gol-d-roger",
+    "names": {
+      "de": "Gol D. Roger",
+      "en": "Gol D. Roger",
+      "aliases": [
+        "Roger",
+        "Piratenkönig",
+        "Pirate King",
+        "Gold Roger"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Roger Pirates"
+    ],
+    "origin": {
+      "sea": "East Blue",
+      "place": "Loguetown"
+    },
+    "haki": [
+      "armament",
+      "observation",
+      "conqueror"
+    ],
+    "fruitId": null,
+    "bounty": 5564800000,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Romance Dawn"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "rocks-d-xebec",
+    "names": {
+      "de": "Rocks D. Xebec",
+      "en": "Rocks D. Xebec",
+      "aliases": [
+        "Rocks",
+        "Xebec"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Rocks Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Wano",
+      "arc": "Wano"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "figarland-garling",
+    "names": {
+      "de": "Figarland Garling",
+      "en": "Figarland Garling",
+      "aliases": [
+        "Garling",
+        "Saint Garling"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "World Government"
+    ],
+    "origin": {
+      "sea": "Red Line",
+      "place": "Mariejoa"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Final",
+      "arc": "Mariejoa"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "imu",
+    "animeSafe": false,
+    "names": {
+      "de": "Imu",
+      "en": "Imu",
+      "aliases": [
+        "Nerona Imu",
+        "Mu"
+      ]
+    },
+    "gender": "unknown",
+    "affiliation": [
+      "World Government"
+    ],
+    "origin": {
+      "sea": "Red Line",
+      "place": "Mariejoa"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Reverie"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "wanda",
+    "names": {
+      "de": "Wanda",
+      "en": "Wanda",
+      "aliases": []
+    },
+    "gender": "female",
+    "affiliation": [
+      "Mokomo Dukedom"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Zou"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Zou"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "morgans",
+    "names": {
+      "de": "Morgans",
+      "en": "Morgans",
+      "aliases": [
+        "Big News Morgans"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "World Economy News"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "tori-albatross",
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Zou"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "charlotte-chiffon",
+    "names": {
+      "de": "Chiffon",
+      "en": "Charlotte Chiffon",
+      "aliases": [
+        "Chiffon"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Fire Tank Pirates"
+    ],
+    "origin": {
+      "sea": "New World"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Whole Cake Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "pedro",
+    "names": {
+      "de": "Pedro",
+      "en": "Pedro",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Mokomo Dukedom"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Zou"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Zou"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "benn-beckman",
+    "names": {
+      "de": "Benn Beckman",
+      "en": "Benn Beckman",
+      "aliases": [
+        "Beckman",
+        "Benn"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Red Hair Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Romance Dawn"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "gin",
+    "names": {
+      "de": "Gin",
+      "en": "Gin",
+      "aliases": [
+        "Demon Gin",
+        "Dämon Gin"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Krieg Pirates"
+    ],
+    "origin": {
+      "sea": "East Blue"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": 12000000,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Baratie"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "zeff",
+    "names": {
+      "de": "Zeff",
+      "en": "Zeff",
+      "aliases": [
+        "Red-Leg Zeff",
+        "Rotfuß Zeff"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Baratie"
+    ],
+    "origin": {
+      "sea": "East Blue",
+      "place": "Baratie"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Baratie"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "pica",
+    "names": {
+      "de": "Pica",
+      "en": "Pica",
+      "aliases": [
+        "Pika"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Donquixote Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "ishi-ishi",
+    "bounty": 99000000,
+    "debut": {
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "pekoms",
+    "names": {
+      "de": "Pekoms",
+      "en": "Pekoms",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Big Mom Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Zou"
+    },
+    "haki": [],
+    "fruitId": "kame-kame",
+    "bounty": null,
+    "debut": {
+      "saga": "Fish-Man Island",
+      "arc": "Fish-Man Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "vinsmoke-reiju",
+    "names": {
+      "de": "Reiju",
+      "en": "Vinsmoke Reiju",
+      "aliases": [
+        "Reiju",
+        "Poison Pink"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Germa Kingdom"
+    ],
+    "origin": {
+      "sea": "North Blue"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Whole Cake Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "kaya",
+    "names": {
+      "de": "Kaya",
+      "en": "Kaya",
+      "aliases": []
+    },
+    "gender": "female",
+    "affiliation": [
+      "Syrup Village"
+    ],
+    "origin": {
+      "sea": "East Blue",
+      "place": "Syrup Village"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Syrup Village"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "nojiko",
+    "names": {
+      "de": "Nojiko",
+      "en": "Nojiko",
+      "aliases": [
+        "Nojiko"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Cocoyasi Village"
+    ],
+    "origin": {
+      "sea": "East Blue",
+      "place": "Cocoyasi Village"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Arlong Park"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "galdino",
+    "names": {
+      "de": "Galdino",
+      "en": "Galdino",
+      "aliases": [
+        "Mr. 3"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Cross Guild"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "doru-doru",
+    "bounty": 24000000,
+    "debut": {
+      "saga": "Alabasta",
+      "arc": "Little Garden"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "kureha",
+    "names": {
+      "de": "Dr. Kureha",
+      "en": "Dr. Kureha",
+      "aliases": [
+        "Kureha",
+        "Hexe",
+        "Witch"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Drum Kingdom"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Drum Island"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Alabasta",
+      "arc": "Drum Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "charlotte-brulee",
+    "names": {
+      "de": "Brulee",
+      "en": "Charlotte Brulee",
+      "aliases": [
+        "Brulee"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Big Mom Pirates"
+    ],
+    "origin": {
+      "sea": "New World"
+    },
+    "haki": [],
+    "fruitId": "mira-mira",
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Whole Cake Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "charlotte-mont-dor",
+    "names": {
+      "de": "Mont-d'Or",
+      "en": "Charlotte Mont-d'Or",
+      "aliases": [
+        "Mont-d'Or"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Big Mom Pirates"
+    ],
+    "origin": {
+      "sea": "New World"
+    },
+    "haki": [],
+    "fruitId": "buku-buku",
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Whole Cake Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "brogy",
+    "names": {
+      "de": "Brogy",
+      "en": "Brogy",
+      "aliases": [
+        "Roter Oger",
+        "Red Ogre"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Elbaf"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Elbaf"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": 100000000,
+    "debut": {
+      "saga": "Alabasta",
+      "arc": "Little Garden"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "dorry",
+    "names": {
+      "de": "Dorry",
+      "en": "Dorry",
+      "aliases": [
+        "Blauer Oger",
+        "Blue Ogre"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Elbaf"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Elbaf"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": 100000000,
+    "debut": {
+      "saga": "Alabasta",
+      "arc": "Little Garden"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "kuro",
+    "names": {
+      "de": "Kuro",
+      "en": "Kuro",
+      "aliases": [
+        "Captain Kuro",
+        "Käpt'n Kuro",
+        "Klahadore"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Black Cat Pirates"
+    ],
+    "origin": {
+      "sea": "East Blue",
+      "place": "Syrup Village"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": 16000000,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Syrup Village"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "don-krieg",
+    "names": {
+      "de": "Don Krieg",
+      "en": "Don Krieg",
+      "aliases": [
+        "Krieg"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Krieg Pirates"
+    ],
+    "origin": {
+      "sea": "East Blue",
+      "place": "Baratie"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": 17000000,
+    "debut": {
+      "saga": "East Blue",
+      "arc": "Baratie"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "vinsmoke-judge",
+    "names": {
+      "de": "Judge",
+      "en": "Vinsmoke Judge",
+      "aliases": [
+        "Judge"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Germa Kingdom"
+    ],
+    "origin": {
+      "sea": "North Blue"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Whole Cake Island"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "kikunojo",
+    "names": {
+      "de": "Kikunojo",
+      "en": "Kikunojo",
+      "aliases": [
+        "Kiku",
+        "O-Kiku"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Kozuki Family"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Wano"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Wano",
+      "arc": "Wano"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "kozuki-hiyori",
+    "names": {
+      "de": "Hiyori",
+      "en": "Kozuki Hiyori",
+      "aliases": [
+        "Hiyori",
+        "Komurasaki"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Kozuki Family"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Wano"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Wano",
+      "arc": "Wano"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "kawamatsu",
+    "names": {
+      "de": "Kawamatsu",
+      "en": "Kawamatsu",
+      "aliases": [
+        "Kappa"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Kozuki Family"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Wano"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Wano",
+      "arc": "Wano"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "ashura-doji",
+    "names": {
+      "de": "Ashura Doji",
+      "en": "Ashura Doji",
+      "aliases": [
+        "Ashura",
+        "Shutenmaru"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Kozuki Family"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Wano"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Wano",
+      "arc": "Wano"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "raizo",
+    "names": {
+      "de": "Raizo",
+      "en": "Raizo",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Kozuki Family"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Wano"
+    },
+    "haki": [],
+    "fruitId": "maki-maki",
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Zou"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "denjiro",
+    "names": {
+      "de": "Denjiro",
+      "en": "Denjiro",
+      "aliases": [
+        "Kyoshiro"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Kozuki Family"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Wano"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Wano",
+      "arc": "Wano"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "paulie",
+    "names": {
+      "de": "Paulie",
+      "en": "Paulie",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Galley-La"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Water 7"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Water 7",
+      "arc": "Water 7"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "hogback",
+    "names": {
+      "de": "Dr. Hogback",
+      "en": "Dr. Hogback",
+      "aliases": [
+        "Hogback"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Thriller Bark Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Thriller Bark",
+      "arc": "Thriller Bark"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "blueno",
+    "names": {
+      "de": "Blueno",
+      "en": "Blueno",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Cipher Pol"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "doa-doa",
+    "bounty": null,
+    "debut": {
+      "saga": "Water 7",
+      "arc": "Water 7"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "jabra",
+    "names": {
+      "de": "Jabra",
+      "en": "Jabra",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Cipher Pol"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "inu-wolf",
+    "bounty": null,
+    "debut": {
+      "saga": "Water 7",
+      "arc": "Enies Lobby"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "perona",
+    "names": {
+      "de": "Perona",
+      "en": "Perona",
+      "aliases": [
+        "Geisterprinzessin",
+        "Ghost Princess"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Thriller Bark Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "horo-horo",
+    "bounty": null,
+    "debut": {
+      "saga": "Thriller Bark",
+      "arc": "Thriller Bark"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "oars",
+    "names": {
+      "de": "Oars",
+      "en": "Oars",
+      "aliases": [
+        "Oz",
+        "Länderzieher",
+        "Continent Puller"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Thriller Bark Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Thriller Bark",
+      "arc": "Thriller Bark"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "shimotsuki-ryuma",
+    "names": {
+      "de": "Ryuma",
+      "en": "Shimotsuki Ryuma",
+      "aliases": [
+        "Ryuma"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Thriller Bark Pirates"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Wano"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Thriller Bark",
+      "arc": "Thriller Bark"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "camie",
+    "names": {
+      "de": "Camie",
+      "en": "Camie",
+      "aliases": [
+        "Caimie"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Ryugu Kingdom"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Fish-Man Island"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "spandam",
+    "names": {
+      "de": "Spandam",
+      "en": "Spandam",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Cipher Pol"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Water 7",
+      "arc": "Water 7"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "aramaki",
+    "names": {
+      "de": "Aramaki",
+      "en": "Aramaki",
+      "aliases": [
+        "Ryokugyu",
+        "Grüner Bulle",
+        "Green Bull"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Marines"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "mori-mori",
+    "bounty": null,
+    "debut": {
+      "saga": "Wano",
+      "arc": "Wano"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "karasu",
+    "names": {
+      "de": "Karasu",
+      "en": "Karasu",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Revolutionary Army"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "susu-susu",
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Reverie"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "lindbergh",
+    "names": {
+      "de": "Lindbergh",
+      "en": "Lindbergh",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Revolutionary Army"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Reverie"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "morley",
+    "names": {
+      "de": "Morley",
+      "en": "Morley",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Revolutionary Army"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "oshi-oshi",
+    "bounty": null,
+    "debut": {
+      "saga": "Whole Cake Island",
+      "arc": "Reverie"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "magellan",
+    "names": {
+      "de": "Magellan",
+      "en": "Magellan",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Marines"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "doku-doku",
+    "bounty": null,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Impel Down"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "kurozumi-kanjuro",
+    "names": {
+      "de": "Kanjuro",
+      "en": "Kurozumi Kanjuro",
+      "aliases": [
+        "Kanjuro"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Kozuki Family"
+    ],
+    "origin": {
+      "sea": "New World",
+      "place": "Wano"
+    },
+    "haki": [],
+    "fruitId": "fude-fude",
+    "bounty": null,
+    "debut": {
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "monet",
+    "names": {
+      "de": "Monet",
+      "en": "Monet",
+      "aliases": []
+    },
+    "gender": "female",
+    "affiliation": [
+      "Donquixote Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "yuki-yuki",
+    "bounty": null,
+    "debut": {
+      "saga": "Punk Hazard",
+      "arc": "Punk Hazard"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "kyros",
+    "names": {
+      "de": "Kyros",
+      "en": "Kyros",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Dressrosa"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Dressrosa"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "donquixote-rosinante",
+    "names": {
+      "de": "Rosinante",
+      "en": "Donquixote Rosinante",
+      "aliases": [
+        "Corazon",
+        "Corazón"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Marines"
+    ],
+    "origin": {
+      "sea": "Red Line",
+      "place": "Mariejoa"
+    },
+    "haki": [],
+    "fruitId": "nagi-nagi",
+    "bounty": null,
+    "debut": {
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
+    },
+    "status": "deceased"
+  },
+  {
+    "id": "viola",
+    "names": {
+      "de": "Viola",
+      "en": "Viola",
+      "aliases": [
+        "Violet"
+      ]
+    },
+    "gender": "female",
+    "affiliation": [
+      "Dressrosa"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Dressrosa"
+    },
+    "haki": [],
+    "fruitId": "giro-giro",
+    "bounty": null,
+    "debut": {
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "bellamy",
+    "names": {
+      "de": "Bellamy",
+      "en": "Bellamy",
+      "aliases": [
+        "Hyäne",
+        "Hyena"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Bellamy Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "bane-bane",
+    "bounty": 195000000,
+    "debut": {
+      "saga": "Skypiea",
+      "arc": "Jaya"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "caribou",
+    "names": {
+      "de": "Caribou",
+      "en": "Caribou",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Caribou Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "numa-numa",
+    "bounty": 210000000,
+    "debut": {
+      "saga": "Fish-Man Island",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "urouge",
+    "names": {
+      "de": "Urouge",
+      "en": "Urouge",
+      "aliases": [
+        "Verrückter Mönch",
+        "Mad Monk"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Fallen Monk Pirates"
+    ],
+    "origin": {
+      "sea": "Sky Islands"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": 108000000,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "unknown"
+  },
+  {
+    "id": "diamante",
+    "names": {
+      "de": "Diamante",
+      "en": "Diamante",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Donquixote Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "hira-hira",
+    "bounty": 99000000,
+    "debut": {
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "foxy",
+    "names": {
+      "de": "Foxy",
+      "en": "Foxy",
+      "aliases": [
+        "Silberfuchs",
+        "Silver Fox"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Foxy Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "noro-noro",
+    "bounty": 24000000,
+    "debut": {
+      "saga": "Water 7",
+      "arc": "Long Ring Long Land"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "daz-bonez",
+    "names": {
+      "de": "Daz Bonez",
+      "en": "Daz Bonez",
+      "aliases": [
+        "Mr. 1",
+        "Daz Bones"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Cross Guild"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "supa-supa",
+    "bounty": 75000000,
+    "debut": {
+      "saga": "Alabasta",
+      "arc": "Alabasta"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "senor-pink",
+    "names": {
+      "de": "Senor Pink",
+      "en": "Senor Pink",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Donquixote Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "sui-sui",
+    "bounty": 58000000,
+    "debut": {
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "bepo",
+    "names": {
+      "de": "Bepo",
+      "en": "Bepo",
+      "aliases": []
+    },
+    "gender": "male",
+    "affiliation": [
+      "Heart Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line",
+      "place": "Zou"
+    },
+    "haki": [],
+    "fruitId": null,
+    "bounty": null,
+    "debut": {
+      "saga": "Summit War",
+      "arc": "Sabaody Archipelago"
+    },
+    "status": "alive"
+  },
+  {
+    "id": "gecko-moria",
+    "names": {
+      "de": "Gecko Moria",
+      "en": "Gecko Moria",
+      "aliases": [
+        "Moria"
+      ]
+    },
+    "gender": "male",
+    "affiliation": [
+      "Thriller Bark Pirates"
+    ],
+    "origin": {
+      "sea": "Grand Line"
+    },
+    "haki": [],
+    "fruitId": "kage-kage",
+    "bounty": 320000000,
+    "debut": {
+      "saga": "Thriller Bark",
+      "arc": "Thriller Bark"
+    },
+    "status": "alive"
+  }
+]
