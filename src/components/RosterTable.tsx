@@ -10,7 +10,10 @@ import type { Character, Fruit } from "@/lib/schema";
 
 interface Props {
   locale: Locale;
+  /** Scope-filtered characters for display. */
   characters: Character[];
+  /** Full pool (unfiltered) for export, datalists and duplicate checks. */
+  fullCharacters: Character[];
   fruits: Fruit[];
   scope: Scope;
   editable?: boolean;
@@ -35,22 +38,22 @@ async function copyText(text: string): Promise<boolean> {
   }
 }
 
-export default function RosterTable({ locale, characters, fruits, scope, editable = false }: Props) {
+export default function RosterTable({ locale, characters, fullCharacters, fruits, scope, editable = false }: Props) {
   const t = dicts[locale];
   const [q, setQ] = useState("");
   const [drafts, setDrafts] = useState<RosterDrafts>(() => loadJSON<RosterDrafts>(DRAFTS_KEY, emptyDrafts));
   const [form, setForm] = useState<{ mode: "add" } | { mode: "edit"; id: string } | null>(null);
   const [copied, setCopied] = useState(false);
 
-  const baseIds = useMemo(() => new Set(characters.map((c) => c.id)), [characters]);
+  const baseIds = useMemo(() => new Set(fullCharacters.map((c) => c.id)), [fullCharacters]);
   // Spoiler scope first, then local drafts on top (drafts are the user's own data).
   const all = useMemo(() => filterByScope(applyDrafts(characters, drafts), scope), [characters, drafts, scope]);
   const byId = useMemo(() => new Map(all.map((c) => [c.id, c])), [all]);
   const nDrafts = draftCount(drafts);
 
-  const knownAffiliations = useMemo(() => [...new Set(characters.flatMap((c) => c.affiliation))].sort(), [characters]);
-  const knownSeas = useMemo(() => [...new Set(characters.map((c) => c.origin.sea))].sort(), [characters]);
-  const knownSagas = useMemo(() => [...new Set(characters.map((c) => c.debut.saga))].sort(), [characters]);
+  const knownAffiliations = useMemo(() => [...new Set(fullCharacters.flatMap((c) => c.affiliation))].sort(), [fullCharacters]);
+  const knownSeas = useMemo(() => [...new Set(fullCharacters.map((c) => c.origin.sea))].sort(), [fullCharacters]);
+  const knownSagas = useMemo(() => [...new Set(fullCharacters.map((c) => c.debut.saga))].sort(), [fullCharacters]);
 
   const fruitName = useMemo(() => {
     const m = new Map(fruits.map((f) => [f.id, f.names[locale]]));
@@ -91,7 +94,7 @@ export default function RosterTable({ locale, characters, fruits, scope, editabl
   }
 
   async function onCopy() {
-    const ok = await copyText(JSON.stringify(applyDrafts(characters, drafts), null, 2) + "\n");
+    const ok = await copyText(JSON.stringify(applyDrafts(fullCharacters, drafts), null, 2) + "\n");
     if (ok) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
@@ -99,7 +102,7 @@ export default function RosterTable({ locale, characters, fruits, scope, editabl
   }
 
   function onDownload() {
-    const blob = new Blob([JSON.stringify(applyDrafts(characters, drafts), null, 2) + "\n"], { type: "application/json" });
+    const blob = new Blob([JSON.stringify(applyDrafts(fullCharacters, drafts), null, 2) + "\n"], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
