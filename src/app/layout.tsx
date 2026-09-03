@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "OnePiecedle — Daily One Piece Guessing Game",
+  title: "Nakamadle — Daily One Piece Guessing Game",
   description: "Guess One Piece characters (Classic + Devil Fruit), daily and endless. Deutsch & English.",
 };
 

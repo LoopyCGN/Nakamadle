@@ -7,7 +7,7 @@ export function isLocale(x: string): x is Locale {
 }
 
 const de = {
-  appTitle: "OnePiecedle",
+  appTitle: "Nakamadle",
   tagline: "Tägliches One-Piece-Ratespiel — aktuell gehalten",
   classic: "Classic",
   classicDesc: "Errate den Charakter des Tages anhand seiner Eigenschaften.",
@@ -83,7 +83,7 @@ const de = {
 export type Dict = typeof de;
 
 const en: Dict = {
-  appTitle: "OnePiecedle",
+  appTitle: "Nakamadle",
   tagline: "Daily One Piece guessing game — kept up to date",
   classic: "Classic",
   classicDesc: "Guess the character of the day from their traits.",

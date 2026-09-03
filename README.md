@@ -1,4 +1,4 @@
-# OnePiecedle 🏴‍☠️
+# Nakamadle 🏴‍☠️
 
 Tägliches One-Piece-Ratespiel (Classic + Teufelsfrucht, Daily + Endlos), Deutsch & Englisch.
 Stack: Next.js 16 (App Router) + TypeScript + Tailwind, Daten als versionierte JSON — kein Backend nötig.
