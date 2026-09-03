@@ -16,7 +16,7 @@ const base: Character = {
   animeSafe: true,
 };
 
-const fruitTypeOf = (c: Character) => (c.fruitId === null ? "none" : c.fruitId === "gomu-gomu" ? "mythical-zoan" : "logia");
+const fruitTypeOf = (c: Character) => (c.fruitId === null ? "none" : c.fruitId === "gomu-gomu" ? "zoan" : "logia");
 
 describe("compareGuess", () => {
   it("marks identical characters correct", () => {

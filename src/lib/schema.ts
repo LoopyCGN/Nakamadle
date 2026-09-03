@@ -2,7 +2,7 @@ import { z } from "zod";
 
 export const GenderSchema = z.enum(["male", "female", "unknown"]);
 export const HakiSchema = z.enum(["armament", "observation", "conqueror"]);
-export const FruitTypeSchema = z.enum(["paramecia", "logia", "zoan", "mythical-zoan"]);
+export const FruitTypeSchema = z.enum(["paramecia", "logia", "zoan"]);
 export const StatusSchema = z.enum(["alive", "deceased", "unknown"]);
 
 export const CharacterSchema = z.object({

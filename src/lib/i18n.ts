@@ -177,7 +177,6 @@ export function tv(locale: Locale, kind: "gender" | "haki" | "fruitType" | "stat
       paramecia: { de: "Paramecia", en: "Paramecia" },
       logia: { de: "Logia", en: "Logia" },
       zoan: { de: "Zoan", en: "Zoan" },
-      "mythical-zoan": { de: "Mythische Zoan", en: "Mythical Zoan" },
     },
     status: {
       alive: { de: "Lebendig", en: "Alive" },
