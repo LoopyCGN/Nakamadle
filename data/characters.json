@@ -250,7 +250,8 @@
       "Straw Hat Pirates"
     ],
     "origin": {
-      "sea": "West Blue"
+      "sea": "West Blue",
+      "place": "Esperia"
     },
     "haki": [],
     "fruitId": "yomi-yomi",
@@ -308,7 +309,8 @@
       "Red Hair Pirates"
     ],
     "origin": {
-      "sea": "West Blue"
+      "sea": "West Blue",
+      "place": "God Valley"
     },
     "haki": [
       "armament",
@@ -366,8 +368,7 @@
       "Cross Guild"
     ],
     "origin": {
-      "sea": "Grand Line",
-      "place": "Kuraigana Island"
+      "sea": "Grand Line"
     },
     "haki": [
       "armament",
@@ -404,7 +405,7 @@
     "bounty": 1965000000,
     "debut": {
       "saga": "Alabasta",
-      "arc": "Alabasta"
+      "arc": "Little Garden"
     },
     "status": "alive"
   },
@@ -585,8 +586,8 @@
     "fruitId": "mera-mera",
     "bounty": 602000000,
     "debut": {
-      "saga": "Dressrosa",
-      "arc": "Dressrosa"
+      "saga": "Summit War",
+      "arc": "Post-War"
     },
     "status": "alive"
   },
@@ -649,8 +650,8 @@
     "fruitId": "uo-uo-seiryu",
     "bounty": 4611100000,
     "debut": {
-      "saga": "Summit War",
-      "arc": "Marineford"
+      "saga": "Dressrosa",
+      "arc": "Dressrosa"
     },
     "status": "unknown"
   },
@@ -669,7 +670,7 @@
       "Big Mom Pirates"
     ],
     "origin": {
-      "sea": "New World"
+      "sea": "Grand Line"
     },
     "haki": [
       "armament",
@@ -738,7 +739,7 @@
     "bounty": null,
     "debut": {
       "saga": "Water 7",
-      "arc": "Water 7"
+      "arc": "Post-Enies Lobby"
     },
     "status": "unknown"
   },
@@ -757,7 +758,7 @@
       "Marines"
     ],
     "origin": {
-      "sea": "Grand Line",
+      "sea": "East Blue",
       "place": "Loguetown"
     },
     "haki": [
@@ -908,8 +909,8 @@
       "Holy Knights"
     ],
     "origin": {
-      "sea": "Red Line",
-      "place": "Mariejoa"
+      "sea": "West Blue",
+      "place": "God Valley"
     },
     "haki": [
       "armament",
@@ -939,7 +940,8 @@
       "Holy Knights"
     ],
     "origin": {
-      "sea": "Red Line"
+      "sea": "West Blue",
+      "place": "Esperia"
     },
     "haki": [],
     "fruitId": "arrow-arrow",
@@ -1232,7 +1234,7 @@
       "Marines"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "North Blue"
     },
     "haki": [
       "armament",
@@ -1341,8 +1343,8 @@
     "fruitId": "nikyu-nikyu",
     "bounty": 296000000,
     "debut": {
-      "saga": "Thriller Bark",
-      "arc": "Thriller Bark"
+      "saga": "Skypiea",
+      "arc": "Jaya"
     },
     "status": "alive"
   },
@@ -1766,7 +1768,7 @@
       "Straw Hat Grand Fleet"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "East Blue"
     },
     "haki": [],
     "fruitId": "bari-bari",
@@ -1793,7 +1795,7 @@
       "Straw Hat Grand Fleet"
     ],
     "origin": {
-      "sea": "New World",
+      "sea": "Grand Line",
       "place": "Bourgeois Kingdom"
     },
     "haki": [],
@@ -2007,7 +2009,7 @@
       "Whitebeard Pirates"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "West Blue"
     },
     "haki": [],
     "fruitId": "kira-kira",
@@ -2033,7 +2035,7 @@
       "Marines"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "South Blue"
     },
     "haki": [
       "armament",
@@ -2064,7 +2066,7 @@
       "Marines"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "North Blue"
     },
     "haki": [
       "armament",
@@ -2094,7 +2096,7 @@
       "Blackbeard Pirates"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "South Blue"
     },
     "haki": [
       "armament",
@@ -2255,14 +2257,14 @@
       "Baroque Works"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "East Blue"
     },
     "haki": [],
     "fruitId": "mane-mane",
     "bounty": 32000000,
     "debut": {
       "saga": "Alabasta",
-      "arc": "Alabasta"
+      "arc": "Little Garden"
     },
     "status": "alive"
   },
@@ -2383,7 +2385,7 @@
       "Cipher Pol"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "East Blue"
     },
     "haki": [],
     "fruitId": "ushi-giraffe",
@@ -2563,7 +2565,7 @@
       "Marines"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "North Blue"
     },
     "haki": [],
     "fruitId": "ryu-allosaurus",
@@ -2643,7 +2645,7 @@
       "Blackbeard Pirates"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "East Blue"
     },
     "haki": [],
     "fruitId": "wapu-wapu",
@@ -2702,7 +2704,8 @@
       "Rocks Pirates"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "West Blue",
+      "place": "God Valley"
     },
     "haki": [],
     "fruitId": null,
@@ -2813,7 +2816,7 @@
     "bounty": null,
     "debut": {
       "saga": "Whole Cake Island",
-      "arc": "Zou"
+      "arc": "Whole Cake Island"
     },
     "status": "alive"
   },
@@ -2881,7 +2884,7 @@
       "Red Hair Pirates"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "North Blue"
     },
     "haki": [],
     "fruitId": null,
@@ -2959,7 +2962,7 @@
       "Donquixote Pirates"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "North Blue"
     },
     "haki": [],
     "fruitId": "ishi-ishi",
@@ -3084,7 +3087,7 @@
       "Cross Guild"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "South Blue"
     },
     "haki": [],
     "fruitId": "doru-doru",
@@ -3501,7 +3504,7 @@
       "Thriller Bark Pirates"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "West Blue"
     },
     "haki": [],
     "fruitId": null,
@@ -3524,7 +3527,7 @@
       "Cipher Pol"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "North Blue"
     },
     "haki": [],
     "fruitId": "doa-doa",
@@ -3547,7 +3550,7 @@
       "Cipher Pol"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "North Blue"
     },
     "haki": [],
     "fruitId": "inu-wolf",
@@ -3573,7 +3576,7 @@
       "Thriller Bark Pirates"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "West Blue"
     },
     "haki": [],
     "fruitId": "horo-horo",
@@ -3600,7 +3603,7 @@
       "Thriller Bark Pirates"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "North Blue"
     },
     "haki": [],
     "fruitId": null,
@@ -3725,11 +3728,11 @@
       "Revolutionary Army"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "North Blue"
     },
     "haki": [],
     "fruitId": "susu-susu",
-    "bounty": null,
+    "bounty": 400000000,
     "debut": {
       "saga": "Whole Cake Island",
       "arc": "Reverie"
@@ -3946,7 +3949,7 @@
       "Bellamy Pirates"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "North Blue"
     },
     "haki": [],
     "fruitId": "bane-bane",
@@ -3969,7 +3972,7 @@
       "Caribou Pirates"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "North Blue"
     },
     "haki": [],
     "fruitId": "numa-numa",
@@ -4018,7 +4021,7 @@
       "Donquixote Pirates"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "North Blue"
     },
     "haki": [],
     "fruitId": "hira-hira",
@@ -4044,7 +4047,7 @@
       "Foxy Pirates"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "South Blue"
     },
     "haki": [],
     "fruitId": "noro-noro",
@@ -4070,7 +4073,7 @@
       "Cross Guild"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "West Blue"
     },
     "haki": [],
     "fruitId": "supa-supa",
@@ -4142,7 +4145,7 @@
       "Thriller Bark Pirates"
     ],
     "origin": {
-      "sea": "Grand Line"
+      "sea": "West Blue"
     },
     "haki": [],
     "fruitId": "kage-kage",
