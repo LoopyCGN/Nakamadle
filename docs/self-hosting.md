@@ -5,15 +5,21 @@ Deploy per Git-Push wie bisher. Vercel kann parallel weiterlaufen oder danach we
 
 ## 0. Überblick & Kosten
 
-| Posten | Empfehlung | Kosten |
+| Posten | Empfehlung | Kosten (Stand 2026) |
 |---|---|---|
-| VPS | Hetzner CX22 (2 vCPU, 4 GB RAM, Ubuntu 24.04, z. B. Falkenstein) | ~5 €/Monat |
+| VPS | Hetzner **CAX11** (ARM, 2 vCPU, 4 GB RAM, Ubuntu 24.04) — unser Stack (Node, Postgres, Coolify) läuft vollständig auf ARM; Alternative: CX22 (x86, teurer) | ~4,50 €/Monat inkl. MwSt. |
 | Domain | z. B. `nakamadle.de` bei INWX/Cloudflare | ~10–15 €/Jahr |
 | Coolify | Open Source, läuft auf dem VPS | 0 € |
 
+> Hinweis: Hetzner hat Mitte 2026 die Cloud-Preise erhöht (CX22 ~5,49 € o. MwSt.).
+> CAX11 (ARM) ist der günstigste Einstieg und für Nakamadle völlig ausreichend.
+> Alternativen in der Preisklasse: Netcup VPS, Contabo Cloud VPS (~5–6 €). Ganz ohne
+> laufende Kosten geht es nur über Oracle Free Tier (mit Abstrichen, siehe Chat).
+
 ## 1. VPS bestellen & vorbereiten
 
-1. Hetzner Cloud → Projekt → *Add Server*: CX22, Image **Ubuntu 24.04**, SSH-Key hinterlegen (oder per Console-Passwort).
+1. Hetzner Cloud → Projekt → *Add Server*: **CAX11** (ARM, 2 vCPU, 4 GB RAM),
+   Image **Ubuntu 24.04**, SSH-Key hinterlegen (oder per Console-Passwort).
 2. Per SSH verbinden: `ssh root@<SERVER-IP>`.
 3. Coolify installieren (aktuellen Befehl ggf. unter `docs.coolify.io` gegenprüfen):
    ```bash
