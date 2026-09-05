@@ -888,5 +888,16 @@
       ]
     },
     "type": "paramecia"
+  },
+  {
+    "id": "ryu-nidhogg",
+    "names": {
+      "de": "Drachen-Frucht Modell Nidhogg",
+      "en": "Dragon-Dragon Fruit Model Nidhogg",
+      "aliases": [
+        "Ryu Ryu no Mi"
+      ]
+    },
+    "type": "zoan"
   }
 ]

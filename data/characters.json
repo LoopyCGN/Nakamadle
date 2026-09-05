@@ -142,7 +142,8 @@
     },
     "haki": [
       "armament",
-      "observation"
+      "observation",
+      "conqueror"
     ],
     "fruitId": null,
     "bounty": 1032000000,
@@ -702,7 +703,9 @@
     "origin": {
       "sea": "Grand Line"
     },
-    "haki": [],
+    "haki": [
+      "observation"
+    ],
     "fruitId": "yami-yami",
     "bounty": 3996000000,
     "debut": {
@@ -886,8 +889,10 @@
       "sea": "New World",
       "place": "Elbaf"
     },
-    "haki": [],
-    "fruitId": null,
+    "haki": [
+      "conqueror"
+    ],
+    "fruitId": "ryu-nidhogg",
     "bounty": null,
     "debut": {
       "saga": "Final",
@@ -1027,7 +1032,9 @@
       "sea": "New World",
       "place": "Elbaf"
     },
-    "haki": [],
+    "haki": [
+      "conqueror"
+    ],
     "fruitId": null,
     "bounty": null,
     "debut": {
@@ -1105,7 +1112,8 @@
     },
     "haki": [
       "armament",
-      "observation"
+      "observation",
+      "conqueror"
     ],
     "fruitId": null,
     "bounty": null,
@@ -2713,7 +2721,9 @@
       "sea": "West Blue",
       "place": "God Valley"
     },
-    "haki": [],
+    "haki": [
+      "conqueror"
+    ],
     "fruitId": null,
     "bounty": null,
     "debut": {
@@ -2768,7 +2778,9 @@
       "sea": "Red Line",
       "place": "Mariejoa"
     },
-    "haki": [],
+    "haki": [
+      "conqueror"
+    ],
     "fruitId": null,
     "bounty": null,
     "debut": {
