@@ -13,8 +13,11 @@ Deploy per Git-Push wie bisher. Vercel kann parallel weiterlaufen oder danach we
 
 > Hinweis: Hetzner hat Mitte 2026 die Cloud-Preise erhöht (CX22 ~5,49 € o. MwSt.).
 > CAX11 (ARM) ist der günstigste Einstieg und für Nakamadle völlig ausreichend.
-> Alternativen in der Preisklasse: Netcup VPS, Contabo Cloud VPS (~5–6 €). Ganz ohne
-> laufende Kosten geht es nur über Oracle Free Tier (mit Abstrichen, siehe Chat).
+> **Alternative bei Verfügbarkeitsproblemen: Netcup VPS 500 G12**
+> (2 vCores, 4 GB DDR5 ECC, 128 GB NVMe, ~5,91 €/Monat inkl. MwSt.,
+> Bestellung unter `netcup.com/de/server/vps` — **VPS/vServer wählen, kein
+> Webhosting!** — Ubuntu 24.04, ggf. Ausweis-Verifizierung einplanen).
+> Ganz ohne laufende Kosten geht es nur über Oracle Free Tier (mit Abstrichen, siehe Chat).
 
 ## 1. VPS bestellen & vorbereiten
 
