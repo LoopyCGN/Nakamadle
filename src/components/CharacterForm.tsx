@@ -46,6 +46,7 @@ export default function CharacterForm({
   const [saga, setSaga] = useState(initial?.debut.saga ?? "");
   const [arc, setArc] = useState(initial?.debut.arc ?? "");
   const [status, setStatus] = useState<Character["status"]>(initial?.status ?? "alive");
+  const [bountySource, setBountySource] = useState<Character["bountySource"]>(initial?.bountySource ?? "wg");
   const [animeSafe, setAnimeSafe] = useState(initial?.animeSafe ?? true);
   const [errors, setErrors] = useState<Record<string, string>>({});
 
@@ -78,6 +79,7 @@ export default function CharacterForm({
       haki,
       fruitId: fruitId === "" ? null : fruitId,
       bounty: bounty.trim() === "" ? null : Number(bounty.trim()),
+      bountySource,
       debut: { saga: saga.trim(), arc: arc.trim() },
       status,
       animeSafe,
@@ -163,6 +165,12 @@ export default function CharacterForm({
           ))}
           {field("bounty", `${t.colBounty} (Berry)`, (
             <input value={bounty} onChange={(e) => setBounty(e.target.value)} inputMode="numeric" placeholder="—" className={inputCls} />
+          ))}
+          {field("bountySource", t.colBounty, (
+            <select value={bountySource} onChange={(e) => setBountySource(e.target.value as Character["bountySource"])} className={inputCls}>
+              <option value="wg">{t.bountySourceWG}</option>
+              <option value="cross-guild">{t.bountySourceCG}</option>
+            </select>
           ))}
           {field("debut.saga", `${t.colDebut} — Saga`, (
             <input value={saga} onChange={(e) => setSaga(e.target.value)} list="sagas" className={inputCls} />

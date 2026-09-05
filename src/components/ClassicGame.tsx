@@ -4,6 +4,7 @@ import { useMemo, useRef, useState } from "react";
 import Autocomplete, { type SearchItem } from "./Autocomplete";
 import Confetti, { type ConfettiHandle } from "./Confetti";
 import { compareGuess, type CellStatus } from "@/lib/compare";
+import { formatBounty } from "@/lib/format";
 import { applyDrafts, DRAFTS_KEY, draftCount, emptyDrafts, type RosterDrafts } from "@/lib/drafts";
 import { filterByScope, type Scope } from "@/lib/scope";
 import { charactersById as _noDirectUse } from "@/lib/data";
@@ -150,9 +151,8 @@ export default function ClassicGame({
     setRounds((r) => ({ played: r.played + 1, won: r.won }));
   }
 
-  function fmtBounty(b: number | null): string {
-    if (b === null) return t.noBounty;
-    return `${new Intl.NumberFormat(locale).format(b)} ฿`;
+  function fmtBounty(c: Character): string {
+    return formatBounty(c.bounty, c.bountySource, locale);
   }
 
   function cellText(key: string, c: Character): string {
@@ -170,7 +170,7 @@ export default function ClassicGame({
       case "fruit":
         return tv(locale, "fruitType", fruitType(c));
       case "bounty":
-        return fmtBounty(c.bounty);
+        return fmtBounty(c);
       case "debut":
         return `${c.debut.arc} (${c.debut.saga})`;
       case "status":

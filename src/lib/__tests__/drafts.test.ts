@@ -14,6 +14,7 @@ const base: Character = {
   debut: { saga: "East Blue", arc: "Romance Dawn" },
   status: "alive",
   animeSafe: true,
+  bountySource: "wg",
 };
 
 const b: Character = { ...base, id: "b", names: { de: "B", en: "B", aliases: [] } };

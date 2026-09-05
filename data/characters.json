@@ -736,12 +736,13 @@
       "conqueror"
     ],
     "fruitId": null,
-    "bounty": null,
+    "bounty": 3000000000,
     "debut": {
       "saga": "Water 7",
       "arc": "Post-Enies Lobby"
     },
-    "status": "unknown"
+    "status": "unknown",
+    "bountySource": "cross-guild"
   },
   {
     "id": "smoker",
@@ -1241,12 +1242,13 @@
       "observation"
     ],
     "fruitId": "pika-pika",
-    "bounty": null,
+    "bounty": 3000000000,
     "debut": {
       "saga": "Summit War",
       "arc": "Sabaody Archipelago"
     },
-    "status": "alive"
+    "status": "alive",
+    "bountySource": "cross-guild"
   },
   {
     "id": "sentomaru",
@@ -1745,12 +1747,13 @@
       "observation"
     ],
     "fruitId": "zushi-zushi",
-    "bounty": null,
+    "bounty": 3000000000,
     "debut": {
       "saga": "Dressrosa",
       "arc": "Dressrosa"
     },
-    "status": "alive"
+    "status": "alive",
+    "bountySource": "cross-guild"
   },
   {
     "id": "bartolomeo",
@@ -2073,12 +2076,13 @@
       "observation"
     ],
     "fruitId": "magu-magu",
-    "bounty": null,
+    "bounty": 5000000000,
     "debut": {
       "saga": "Summit War",
       "arc": "Marineford"
     },
-    "status": "alive"
+    "status": "alive",
+    "bountySource": "cross-guild"
   },
   {
     "id": "kuzan",
@@ -2311,12 +2315,13 @@
     },
     "haki": [],
     "fruitId": null,
-    "bounty": null,
+    "bounty": 100000000,
     "debut": {
       "saga": "East Blue",
       "arc": "Loguetown"
     },
-    "status": "alive"
+    "status": "alive",
+    "bountySource": "cross-guild"
   },
   {
     "id": "coby",
@@ -2338,12 +2343,13 @@
       "observation"
     ],
     "fruitId": null,
-    "bounty": null,
+    "bounty": 500000000,
     "debut": {
       "saga": "East Blue",
       "arc": "Romance Dawn"
     },
-    "status": "alive"
+    "status": "alive",
+    "bountySource": "cross-guild"
   },
   {
     "id": "iceburg",
@@ -3709,12 +3715,13 @@
     },
     "haki": [],
     "fruitId": "mori-mori",
-    "bounty": null,
+    "bounty": 3000000000,
     "debut": {
       "saga": "Wano",
       "arc": "Wano"
     },
-    "status": "alive"
+    "status": "alive",
+    "bountySource": "cross-guild"
   },
   {
     "id": "karasu",

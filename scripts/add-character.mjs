@@ -72,6 +72,8 @@ const bounty = await ask("Kopfgeld in Berry (leer = keins): ", {
   transform: (s) => (s === "" ? null : Number(s)),
   validate: (v) => (v !== null && (!Number.isInteger(v) || v < 0) ? "ganze Zahl ≥ 0" : null),
 });
+const bountySourceAnswer = bounty === null ? "wg" : await ask("Kopfgeld-Quelle (wg/cross-guild, Standard wg): ");
+const bountySource = bountySourceAnswer === "cross-guild" ? "cross-guild" : "wg";
 const saga = await ask("Debüt-Saga (z. B. East Blue): ", { validate: (v) => (!v ? "leer" : null) });
 const arc = await ask("Debüt-Arc (z. B. Romance Dawn): ", { validate: (v) => (!v ? "leer" : null) });
 const status = await ask("Status (alive/deceased/unknown): ", {
@@ -89,6 +91,7 @@ const entry = {
   haki,
   fruitId,
   bounty,
+  bountySource,
   debut: { saga, arc },
   status,
   animeSafe,

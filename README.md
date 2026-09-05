@@ -25,6 +25,7 @@ npm run build && npm start
 
 Farben: 🟩 Treffer · 🟨 Teilweise (geteilte Gruppe / gleiches Meer / gleiche Saga) · 🟥 daneben.
 Kopfgeld-Pfeile ↑ ↓ zeigen, ob das Ziel höher/niedriger ist. Alle Spalten (inkl. Frucht-Typ und Debüt) sind ab dem ersten Versuch sichtbar.
+Marines haben Cross-Guild-Kopfgelder (⭐, Berry-Äquivalent: 1 Stern = 100 Mio, 1 Krone = 1 Mrd) statt WG-Kopfgeldern (฿).
 
 ## Spoiler-Umfang: Anime vs. Manga
 

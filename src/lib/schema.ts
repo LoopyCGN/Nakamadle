@@ -21,6 +21,8 @@ export const CharacterSchema = z.object({
   haki: z.array(HakiSchema),
   fruitId: z.string().min(1).nullable(),
   bounty: z.number().int().nonnegative().nullable(),
+  /** wg = classic Berry bounty; cross-guild = star/crown bounty on Marines (berry equivalent). */
+  bountySource: z.enum(["wg", "cross-guild"]).default("wg"),
   debut: z.object({
     saga: z.string().min(1),
     arc: z.string().min(1),

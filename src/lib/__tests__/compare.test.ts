@@ -14,6 +14,7 @@ const base: Character = {
   debut: { saga: "East Blue", arc: "Romance Dawn" },
   status: "alive",
   animeSafe: true,
+  bountySource: "wg",
 };
 
 const fruitTypeOf = (c: Character) => (c.fruitId === null ? "none" : c.fruitId === "gomu-gomu" ? "zoan" : "logia");

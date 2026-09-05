@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import CharacterForm from "./CharacterForm";
+import { formatBounty } from "@/lib/format";
 import { applyDrafts, DRAFTS_KEY, draftCount, emptyDrafts, isDraftId, type RosterDrafts } from "@/lib/drafts";
 import { filterByScope, type Scope } from "@/lib/scope";
 import { loadJSON, saveJSON } from "@/lib/storage";
@@ -196,7 +197,7 @@ export default function RosterTable({ locale, characters, fullCharacters, fruits
                   </td>
                   <td className={td}>{fruitName(c.fruitId)}</td>
                   <td className={`${td} text-right font-mono`}>
-                    {c.bounty === null ? t.noBounty : new Intl.NumberFormat(locale).format(c.bounty)}
+                    {formatBounty(c.bounty, c.bountySource, locale)}
                   </td>
                   <td className={td}>{c.debut.arc}</td>
                   <td className={td}>{tv(locale, "status", c.status)}</td>

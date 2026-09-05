@@ -28,7 +28,7 @@ const de = {
   streak: "Serie",
   howTo: "So geht's",
   howToText:
-    "Tippe einen Charakternamen und vergleiche die Eigenschaften. Grün = Treffer, Gelb = teilweise (z. B. gleiche Crew-Gruppe, gleiches Meer oder gleiche Saga), Rot = daneben. Beim Kopfgeld zeigen Pfeile ↑ ↓, ob das Ziel höher oder niedriger ist.",
+    "Tippe einen Charakternamen und vergleiche die Eigenschaften. Grün = Treffer, Gelb = teilweise (z. B. gleiche Crew-Gruppe, gleiches Meer oder gleiche Saga), Rot = daneben. Beim Kopfgeld zeigen Pfeile ↑ ↓, ob das Ziel höher oder niedriger ist. ⭐ markiert Cross-Guild-Kopfgelder auf Marines (Wert in Berry).",
   colName: "Name",
   colGender: "Geschlecht",
   colAffiliation: "Zugehörigkeit",
@@ -79,6 +79,8 @@ const de = {
   scopeMangaDesc: "Alles — inklusive aktueller Manga-Inhalte (Elbaph & Co.).",
   scopeSwitch: "Umfang wechseln",
   animeSafeLabel: "Bereits im Anime zu sehen (kein Manga-Spoiler)",
+  bountySourceWG: "Weltregierung (฿)",
+  bountySourceCG: "Cross Guild (⭐)",
 };
 export type Dict = typeof de;
 
@@ -104,7 +106,7 @@ const en: Dict = {
   streak: "Streak",
   howTo: "How to play",
   howToText:
-    "Type a character name and compare traits. Green = match, yellow = partial (e.g. shared group, same sea or same saga), red = miss. Bounty arrows ↑ ↓ show whether the target is higher or lower.",
+    "Type a character name and compare traits. Green = match, yellow = partial (e.g. shared group, same sea or same saga), red = miss. Bounty arrows ↑ ↓ show whether the target is higher or lower. ⭐ marks Cross Guild bounties on Marines (berry equivalent).",
   colName: "Name",
   colGender: "Gender",
   colAffiliation: "Affiliation",
@@ -155,6 +157,8 @@ const en: Dict = {
   scopeMangaDesc: "Everything — including current manga content (Elbaph & co.).",
   scopeSwitch: "Switch scope",
   animeSafeLabel: "Already in the anime (no manga spoiler)",
+  bountySourceWG: "World Government (฿)",
+  bountySourceCG: "Cross Guild (⭐)",
 };
 
 export const dicts: Record<Locale, Dict> = { de, en };
