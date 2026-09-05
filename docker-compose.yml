@@ -1,0 +1,51 @@
+# Nakamadle self-hosting stack: app + Postgres.
+# Usage:
+#   cp .env.example .env          # then fill POSTGRES_PASSWORD (+ optional keys)
+#   docker compose up --build -d
+#   → http://localhost:3000/de
+#
+# Notes:
+# - POSTGRES_PASSWORD MUST be changed (default below is dev-only).
+# - DATABASE_URL is not used by the app yet (reserved for the planned
+#   Auth.js migration away from Supabase). Postgres already runs so the
+#   migration later is only app code.
+# - NEXT_PUBLIC_* vars are baked into the frontend at build time.
+
+name: nakamadle
+
+services:
+  app:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL:-}
+        NEXT_PUBLIC_SUPABASE_ANON_KEY: ${NEXT_PUBLIC_SUPABASE_ANON_KEY:-}
+        NEXT_PUBLIC_ROSTER_EDIT: ${NEXT_PUBLIC_ROSTER_EDIT:-}
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-nakamadle}:${POSTGRES_PASSWORD:-change-me-in-production}@db:5432/${POSTGRES_DB:-nakamadle}
+      NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL:-}
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: ${NEXT_PUBLIC_SUPABASE_ANON_KEY:-}
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-nakamadle}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change-me-in-production}
+      POSTGRES_DB: ${POSTGRES_DB:-nakamadle}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER:-nakamadle}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  pgdata:

@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Required for the Docker image (standalone server.js). Vercel ignores it.
+  output: "standalone",
   async headers() {
     return [
       {
