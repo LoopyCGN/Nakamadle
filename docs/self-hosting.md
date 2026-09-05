@@ -13,10 +13,14 @@ Deploy per Git-Push wie bisher. Vercel kann parallel weiterlaufen oder danach we
 
 > Hinweis: Hetzner hat Mitte 2026 die Cloud-Preise erhöht (CX22 ~5,49 € o. MwSt.).
 > CAX11 (ARM) ist der günstigste Einstieg und für Nakamadle völlig ausreichend.
-> **Alternative bei Verfügbarkeitsproblemen: Netcup VPS 500 G12**
-> (2 vCores, 4 GB DDR5 ECC, 128 GB NVMe, ~5,91 €/Monat inkl. MwSt.,
-> Bestellung unter `netcup.com/de/server/vps` — **VPS/vServer wählen, kein
-> Webhosting!** — Ubuntu 24.04, ggf. Ausweis-Verifizierung einplanen).
+> **Budget-Tipp ≤ 5 €: Netcup VPS Lite 1 G12s** (2 vCores, 4 GB RAM, 80 GB SSD,
+> ~4,10 € netto ≈ **4,88 € inkl. MwSt.**) — **ohne** kostenpflichtige Extras
+> bestellen: Standort „No preference Europe" (0 €, landet in Nürnberg/Wien/Amsterdam —
+> alle ok für deutsche Nutzer) und IPv4+IPv6 (0 €). Vorsicht: Standort-Wunsch
+> (+1,58 €) u. ä. treiben den Preis schnell über 8 €. 6 Monate Mindestlaufzeit
+> einplanen. Für Nakamadle reicht die Leistung (gleiche CPU/RAM wie VPS 500 G12);
+> Abstriche nur bei Platte (SSD statt NVMe), Leitung (500 Mbit/s) und Uptime-Garantie.
+> Normale Alternative: Netcup VPS 500 G12 (~5,91 € inkl. MwSt.).
 > Ganz ohne laufende Kosten geht es nur über Oracle Free Tier (mit Abstrichen, siehe Chat).
 
 ## 1. VPS bestellen & vorbereiten
