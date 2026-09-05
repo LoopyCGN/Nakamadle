@@ -2129,7 +2129,7 @@
     },
     "haki": [],
     "fruitId": "horu-horu",
-    "bounty": null,
+    "bounty": 100000000,
     "debut": {
       "saga": "Summit War",
       "arc": "Impel Down"
@@ -2622,7 +2622,7 @@
     },
     "haki": [],
     "fruitId": "riki-riki",
-    "bounty": null,
+    "bounty": 20000000,
     "debut": {
       "saga": "Skypiea",
       "arc": "Jaya"
@@ -2862,7 +2862,7 @@
     },
     "haki": [],
     "fruitId": null,
-    "bounty": null,
+    "bounty": 382000000,
     "debut": {
       "saga": "Whole Cake Island",
       "arc": "Zou"
@@ -2990,7 +2990,7 @@
     },
     "haki": [],
     "fruitId": "kame-kame",
-    "bounty": null,
+    "bounty": 330000000,
     "debut": {
       "saga": "Fish-Man Island",
       "arc": "Fish-Man Island"
@@ -3169,7 +3169,7 @@
     },
     "haki": [],
     "fruitId": "buku-buku",
-    "bounty": null,
+    "bounty": 120000000,
     "debut": {
       "saga": "Whole Cake Island",
       "arc": "Whole Cake Island"
@@ -3755,7 +3755,7 @@
     },
     "haki": [],
     "fruitId": null,
-    "bounty": null,
+    "bounty": 316000000,
     "debut": {
       "saga": "Whole Cake Island",
       "arc": "Reverie"
@@ -3778,7 +3778,7 @@
     },
     "haki": [],
     "fruitId": "oshi-oshi",
-    "bounty": null,
+    "bounty": 293000000,
     "debut": {
       "saga": "Whole Cake Island",
       "arc": "Reverie"
