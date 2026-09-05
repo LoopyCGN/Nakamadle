@@ -45,6 +45,7 @@ export default async function ClassicDaily({
           historyKey={`opd:classic:history:${scope}`}
           allowNewRound={false}
           scope={scope}
+          saveResult={{ mode: "classic", scope, dateKey }}
         />
       </div>
     </div>

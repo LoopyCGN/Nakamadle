@@ -3,7 +3,10 @@
 import { useMemo, useState } from "react";
 import Autocomplete, { type SearchItem } from "./Autocomplete";
 import { emptyGame, loadJSON, saveJSON, type GameState } from "@/lib/storage";
+import { saveDailyResult } from "@/lib/auth";
+import { createClient, isSupabaseConfigured } from "@/lib/supabase/client";
 import { dicts, tv, type Locale } from "@/lib/i18n";
+import type { Scope } from "@/lib/scope";
 import type { Character, Fruit } from "@/lib/schema";
 
 interface Props {
@@ -13,9 +16,10 @@ interface Props {
   initialTargetId: string;
   storageKey: string | null;
   allowNewRound: boolean;
+  saveResult?: { mode: "fruits"; scope: Scope; dateKey: string };
 }
 
-export default function FruitGame({ locale, characters, fruits, initialTargetId, storageKey, allowNewRound }: Props) {
+export default function FruitGame({ locale, characters, fruits, initialTargetId, storageKey, allowNewRound, saveResult }: Props) {
   const t = dicts[locale];
   const fruitById = useMemo(() => new Map(fruits.map((f) => [f.id, f])), [fruits]);
   const charById = useMemo(() => new Map(characters.map((c) => [c.id, c])), [characters]);
@@ -28,6 +32,12 @@ export default function FruitGame({ locale, characters, fruits, initialTargetId,
     storageKey ? loadJSON<GameState>(storageKey, emptyGame) : emptyGame,
   );
   const [gaveUp, setGaveUp] = useState(false);
+  const supabase = useMemo(() => (isSupabaseConfigured() ? createClient() : null), []);
+
+  function persistResult(attempts: number, won: boolean) {
+    if (!saveResult || !supabase) return;
+    void saveDailyResult(supabase, { ...saveResult, attempts, won });
+  }
 
   const target = charById.get(targetId);
   const won = charState.won;
@@ -54,8 +64,14 @@ export default function FruitGame({ locale, characters, fruits, initialTargetId,
       const next: GameState = { guesses: [...charState.guesses, targetId], won: true };
       setCharState(next);
       if (storageKey) saveJSON(storageKey, next);
+      persistResult(nextGuesses.length, true);
     }
     return null;
+  }
+
+  function giveUp() {
+    setGaveUp(true);
+    persistResult(fruitGuesses.length, false);
   }
 
   function newRound() {
@@ -121,7 +137,7 @@ export default function FruitGame({ locale, characters, fruits, initialTargetId,
       )}
 
       {!finished && fruitGuesses.length > 0 && (
-        <button onClick={() => setGaveUp(true)} className="mt-2 text-sm text-slate-500 underline hover:text-slate-300">
+        <button onClick={giveUp} className="mt-2 text-sm text-slate-500 underline hover:text-slate-300">
           {t.giveUp}
         </button>
       )}

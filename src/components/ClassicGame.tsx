@@ -5,6 +5,8 @@ import Autocomplete, { type SearchItem } from "./Autocomplete";
 import Confetti, { type ConfettiHandle } from "./Confetti";
 import { compareGuess, type CellStatus } from "@/lib/compare";
 import { formatBounty } from "@/lib/format";
+import { saveDailyResult } from "@/lib/auth";
+import { createClient, isSupabaseConfigured } from "@/lib/supabase/client";
 import { applyDrafts, DRAFTS_KEY, draftCount, emptyDrafts, type RosterDrafts } from "@/lib/drafts";
 import { filterByScope, type Scope } from "@/lib/scope";
 import { charactersById as _noDirectUse } from "@/lib/data";
@@ -26,6 +28,8 @@ interface Props {
   allowNewRound: boolean;
   enableDrafts?: boolean; // merge local roster drafts into the pool (endless only)
   scope: Scope;
+  /** Persist finished daily games for logged-in users (endless passes none). */
+  saveResult?: { mode: "classic"; scope: Scope; dateKey: string };
 }
 
 interface HistoryEntry {
@@ -54,6 +58,7 @@ export default function ClassicGame({
   allowNewRound,
   enableDrafts = false,
   scope,
+  saveResult,
 }: Props) {
   const t = dicts[locale];
   // Local roster drafts let players test new/edited characters in endless mode.
@@ -81,6 +86,12 @@ export default function ClassicGame({
   const [rounds, setRounds] = useState({ played: 1, won: 0 });
   const [celebrateId, setCelebrateId] = useState<string | null>(null);
   const confettiRef = useRef<ConfettiHandle>(null);
+  const supabase = useMemo(() => (isSupabaseConfigured() ? createClient() : null), []);
+
+  function persistResult(attempts: number, won: boolean) {
+    if (!saveResult || !supabase) return;
+    void saveDailyResult(supabase, { ...saveResult, attempts, won });
+  }
 
   const target = byId.get(targetId);
   const guesses = state.guesses;
@@ -127,6 +138,7 @@ export default function ClassicGame({
     if (next.won) {
       recordHistory({ won: true, attempts: next.guesses.length });
       setRounds((r) => ({ played: r.played, won: r.won + 1 }));
+      persistResult(next.guesses.length, true);
       window.setTimeout(() => {
         confettiRef.current?.burst(window.innerWidth / 2, window.innerHeight * 0.3, 220);
       }, 1200);
@@ -140,6 +152,7 @@ export default function ClassicGame({
   function giveUp() {
     setGaveUp(true);
     recordHistory({ won: false, attempts: guesses.length });
+    persistResult(guesses.length, false);
   }
 
   function newRound() {

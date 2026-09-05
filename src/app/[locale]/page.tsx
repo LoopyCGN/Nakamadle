@@ -22,6 +22,7 @@ export default async function Home({
     { href: `/${locale}/classic/endless?scope=${scope}`, title: t.endless, desc: t.endlessDesc, emoji: "♾️" },
     { href: `/${locale}/fruits?scope=${scope}`, title: `${t.fruitMode} · ${t.dailyPuzzle}`, desc: t.fruitModeDesc, emoji: "😈" },
     { href: `/${locale}/roster?scope=${scope}`, title: t.roster, desc: t.rosterDesc, emoji: "📜" },
+    { href: `/${locale}/leaderboard?scope=${scope}`, title: t.leaderboard, desc: t.loginHint, emoji: "🏆" },
   ];
 
   return (

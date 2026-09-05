@@ -57,6 +57,26 @@ Hinweis: Die Daily-Lösung ist `dayNumber % poolSize` — wenn der Pool wächst,
 
 Vercel: Repo importieren → Framework-Preset Next.js → deployen. Kein Env, keine DB nötig.
 
+## Login & Bestenliste (Supabase, gratis)
+
+Für Accounts, gespeicherte Tagesergebnisse und Bestenlisten:
+
+1. Gratis-Projekt anlegen: https://supabase.com/dashboard → *New project*
+2. Im Projekt unter *SQL Editor* die Datei `supabase/migrations/0001_leaderboard.sql`
+   aus diesem Repo ausführen (Tabellen `profiles`/`results`, Row-Level-Security,
+   Profil-Trigger, `leaderboard_alltime`-View)
+3. Unter *Project Settings → API* die Werte kopieren und setzen:
+   - lokal in `.env.local`: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+   - auf Vercel: gleiche zwei als Environment Variables
+4. Optional: unter *Authentication → Providers* E-Mail-Bestätigung anpassen
+   (Standard: Bestätigungsmail erforderlich; für Tests ggf. „Confirm email" deaktivieren)
+
+Ohne diese Keys zeigen Login/Bestenliste einen Hinweis und das Spiel läuft
+wie bisher (nur `localStorage`). Sicherheit: Nutzer dürfen per RLS nur eigene
+Zeilen schreiben; Bestenlisten sind öffentlich lesbar. Spielergebnisse sind
+client-gemeldet (vertrauensbasiert, wie im Original) — pro Account/Modus/Scope/Tag
+gilt genau eine Zeile (Unique-Constraint).
+
 ## Roadmap
 
 - Mehr Charaktere/Früchte (Ziel 100+), Spoiler-Grenze pro Saga markieren

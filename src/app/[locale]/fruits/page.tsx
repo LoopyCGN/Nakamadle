@@ -42,6 +42,7 @@ export default async function FruitsDaily({
           initialTargetId={target.id}
           storageKey={`opd:fruits:${scope}:${dateKey}`}
           allowNewRound={false}
+          saveResult={{ mode: "fruits", scope, dateKey }}
         />
       </div>
     </div>
